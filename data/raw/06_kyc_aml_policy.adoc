@@ -1,0 +1,91 @@
+= KYC and AML Policy
+Aurelia Bank
+:doctype: article
+:toc: left
+:sectnums:
+
+Policy ID: AUR-KYC-006 +
+Version: 5.0 +
+Classification: Internal - Employee Use
+
+== Purpose
+
+This policy establishes Aurelia Bank's Know Your Customer and Anti-Money Laundering framework, including customer risk rating, Enhanced Due Diligence triggers, transaction monitoring thresholds, and suspicious activity reporting obligations. It provides the compliance foundation referenced by the Customer Onboarding Policy (AUR-CO-005) and applies to every customer relationship maintained by Aurelia Bank. This policy exists because Aurelia Bank's exposure to money-laundering and terrorist-financing risk is managed primarily through consistent, well-documented customer classification and monitoring rather than through any single control; staff across onboarding, transaction monitoring, and compliance investigation all draw their authority and their obligations from this document.
+
+== Scope
+
+This policy applies to all customer categories defined in the Retail Banking Policy (AUR-RB-001), all onboarding channels described in the Customer Onboarding Policy, and all transaction monitoring activity across branch, digital, and corporate banking channels. It governs the conduct of all Aurelia Bank staff involved in customer verification, transaction monitoring, and regulatory reporting, and is issued under the authority of the Financial Compliance Regulation (AUR-FC-009).
+
+== Definitions
+
+Customer Due Diligence (CDD):: The standard process of verifying customer identity and address, and assessing the purpose and nature of the customer relationship, applied to every new customer.
+
+Enhanced Due Diligence (EDD):: An intensified verification process applied to customers or transactions presenting elevated money-laundering or terrorist-financing risk, involving additional documentation, senior sign-off, and more frequent ongoing monitoring.
+
+Politically Exposed Person (PEP):: An individual who holds, or has held within the preceding 5 years, a prominent public function, including their immediate family members and close associates, as defined for the purposes of this policy.
+
+Suspicious Transaction Report (STR):: A formal report filed with the Financial Intelligence Unit-Aurelia (FIU-A) when a transaction or pattern of transactions is reasonably suspected of being linked to money laundering or other financial crime.
+
+Cash Transaction Report (CTR):: A formal report filed with FIU-A for any single-day cash transaction, or series of connected cash transactions, meeting or exceeding the reporting threshold defined in this policy.
+
+Financial Intelligence Unit-Aurelia (FIU-A):: The fictional national body to which Aurelia Bank reports suspicious and high-value cash transactions under this synthetic regulatory framework.
+
+== KYC and AML Framework
+
+=== Eligibility
+
+All customers, without exception, must complete Customer Due Diligence before an account is activated for unrestricted use, as described in the Customer Onboarding Policy. Customers classified as Politically Exposed Persons, customers operating cash-intensive businesses such as retail trading or hospitality, Non-Resident Customers, and any customer conducting a single cash transaction of AUR 1,000,000 or more are automatically routed into the Enhanced Due Diligence pathway regardless of their retail segment classification.
+
+=== Requirements
+
+Standard Customer Due Diligence requires verification of a Proof of Identity and Proof of Address as described in the Customer Onboarding Policy, together with a declaration of the purpose of the account relationship. Enhanced Due Diligence additionally requires a declared source of funds statement, verification of the customer's occupation or business activity against the declared income level, and, for corporate applicants, identification of all beneficial owners holding 25% or more of the entity's shares or voting rights.
+
+Every customer is assigned a KYC Risk Rating of Low, Medium, or High at onboarding, based on factors including customer category, geography, product usage, and PEP status. The KYC Risk Rating determines the frequency of periodic re-verification: Low Risk customers are re-verified every 8 years, Medium Risk customers every 3 years, and High Risk customers, including all PEPs, every 1 year.
+
+=== Limits and Thresholds
+
+Any single-day cash transaction, or aggregated same-day cash transactions, totaling AUR 1,000,000 or more triggers mandatory Cash Transaction Report filing with FIU-A, regardless of customer category or KYC Risk Rating. Suspicious Transaction Reports must be filed with FIU-A within 7 business days of an employee or automated monitoring system forming a reasonable suspicion, irrespective of the transaction amount involved.
+
+Corporate beneficial ownership declarations are required for any individual or entity holding 25% or more of shares, voting rights, or equivalent ownership interest. Transaction monitoring systems flag any account showing a month-on-month transaction volume increase of 300% or more for manual review, even where no individual transaction breaches the CTR threshold.
+
+=== Exceptions
+
+Government and quasi-government entities are exempt from beneficial ownership declaration requirements, as their ownership structure is a matter of public record. Existing Low Risk customers who are re-verified ahead of schedule due to a product upgrade, such as reclassification to Aurelia Preferred Customer status, are not required to complete a full EDD cycle solely due to the reclassification, provided no other EDD trigger is present.
+
+=== Processing Procedure
+
+Transaction monitoring is performed continuously by an automated system that screens all transactions against the cash thresholds, watchlist matches, and behavioral pattern rules described in this policy. Flagged transactions are queued for review by a Compliance Analyst within 2 business days. Where the analyst confirms reasonable suspicion, an STR is drafted and submitted to FIU-A within the 7 business day filing window described above. CTR filings are generated automatically by the monitoring system and submitted to FIU-A on a next-business-day basis following the qualifying transaction.
+
+Periodic re-verification is triggered automatically by the KYC system based on each customer's assigned risk rating and the date of their last verification. Customers due for re-verification are contacted at least 30 calendar days before their existing verification lapses; failure to complete re-verification within 60 calendar days of the due date results in the account being placed into restricted mode, permitting withdrawals but not new deposits, until re-verification is complete.
+
+=== Roles and Responsibilities
+
+The Compliance Analyst is responsible for first-line review of system-flagged transactions and for drafting STR filings where suspicion is confirmed. The Senior Compliance Analyst is responsible for countersigning every STR prior to submission and for periodic quality review of closed monitoring cases. The Head of Compliance is responsible for approving all PEP relationships and for the bank's overall AML program, including annual reporting to the Board on the effectiveness of the transaction monitoring system.
+
+=== Sanctions Screening
+
+In addition to the Financial Intelligence Unit-Aurelia watchlist, every customer and every counterparty named in a transaction is screened against Aurelia Bank's consolidated sanctions list at onboarding and on a daily basis thereafter for the life of the relationship. A positive sanctions match results in the immediate freezing of the account pending manual review by the Head of Compliance, and no transaction may be processed on a frozen account, including withdrawals, until the match is either confirmed as a genuine hit and escalated to FIU-A, or cleared as a false positive.
+
+=== Review and Approval
+
+Standard CDD approval rests with the Verification Officer completing onboarding. EDD cases require sign-off from the branch's designated Compliance Liaison, and PEP relationships additionally require approval from the Head of Compliance before account activation. All STR filings must be reviewed and countersigned by a Senior Compliance Analyst prior to submission to FIU-A.
+
+=== Effective Date
+
+Version 5.0 of the KYC and AML Policy is effective from 1 January 2026, superseding Version 4.3 dated 1 January 2024. This version raises the CTR threshold from AUR 800,000 to AUR 1,000,000 and introduces the 300% transaction volume increase monitoring rule.
+
+== Related Policies
+
+* Retail Banking Policy (AUR-RB-001)
+* Customer Onboarding Policy (AUR-CO-005)
+* Corporate Loan Policy (AUR-CL-004)
+* Financial Compliance Regulation (AUR-FC-009)
+* Digital Banking and Transaction Policy (AUR-DB-010)
+
+== Documentation and Record-Keeping
+
+KYC verification records, transaction monitoring logs, and PEP declarations are retained for 8 years following account closure. STR and CTR filings, together with their supporting analysis, are retained for 10 years from the date of filing, both as defined in the Financial Compliance Regulation (AUR-FC-009). Access to STR filing records is restricted to the Compliance division and, where required, to external examiners acting under a formal regulatory request; no STR content may be disclosed to the customer under investigation, consistent with standard confidentiality practice for suspicious activity reporting.
+
+== Summary
+
+This policy establishes a three-tier KYC Risk Rating system with re-verification cycles of 8, 3, and 1 years for Low, Medium, and High Risk customers respectively, and defines Enhanced Due Diligence triggers including PEP status, cash-intensive businesses, and cash transactions of AUR 1,000,000 or more. It sets mandatory reporting obligations to the Financial Intelligence Unit-Aurelia, including Cash Transaction Reports for qualifying cash activity and Suspicious Transaction Reports within 7 business days of detected suspicion.

@@ -1,0 +1,98 @@
+= Personal Loan Product Manual
+Aurelia Bank
+:doctype: article
+:toc: left
+:sectnums:
+
+Policy ID: AUR-PL-003 +
+Version: 1.8 +
+Classification: Internal - Employee Use
+
+== Purpose
+
+This manual defines the eligibility criteria, pricing structure, and processing workflow for Aurelia Personal Credit Line, Aurelia Bank's unsecured personal loan product. It is intended to guide branch lending staff and the centralized personal loan underwriting team in originating and disbursing personal loans in a manner consistent with the bank's credit risk framework.
+
+== Scope
+
+This manual applies to all unsecured personal loan applications submitted by Standard Retail Customers and Aurelia Preferred Customers, as defined in the Retail Banking Policy (AUR-RB-001), for purposes including debt consolidation, medical expenses, travel, and other personal financing needs. It does not apply to secured lending products such as Aurelia Home Advantage, governed by the Home Loan Product Manual (AUR-HL-002), and it does not apply to business or corporate borrowing.
+
+== Definitions
+
+Aurelia Personal Credit Line:: The branded unsecured personal loan product offered under this manual.
+
+Unsecured Facility:: A credit facility extended without collateral, relying solely on the applicant's income and Aurelia Credit Score for risk assessment.
+
+Debt-to-Income Ratio (DTI):: As defined in the Home Loan Product Manual, the ratio of total monthly debt obligations, including the proposed loan installment, to verified monthly income.
+
+Aurelia Credit Score (ACS):: The proprietary credit score, ranging from 300 to 900, described in the Credit Risk and Eligibility Policy (AUR-CR-008), used to determine an applicant's Risk Grade.
+
+== Product Terms
+
+=== Eligibility
+
+Applicants must be between 21 and 58 years of age at the time of application, and must not exceed 60 years of age at loan maturity, reflecting the shorter maximum tenure and unsecured nature of this product relative to Aurelia Home Advantage. Applicants must hold a Standard Retail Customer or Aurelia Preferred Customer account with Aurelia Bank for a minimum of 6 months, or must be salaried employees of a corporate entity on Aurelia Bank's approved employer list, in which case the minimum relationship period is waived.
+
+A minimum Aurelia Credit Score of 600 is required, corresponding to Risk Grade D or better. Applicants with a Risk Grade of E, meaning an Aurelia Credit Score below 600, are not eligible for Aurelia Personal Credit Line under any circumstance, as the product carries no collateral to offset elevated default risk.
+
+=== Requirements
+
+Salaried applicants must submit the most recent 3 months of salary statements and a current employment verification letter. Self-employed applicants must submit the most recent 1 year of audited or self-certified financial statements and the most recent year of income tax filings. All applicants must complete the standard Customer Due Diligence process described in the Customer Onboarding Policy (AUR-CO-005) if not already an existing verified customer.
+
+Applicants with existing unsecured debt exceeding AUR 1,000,000 across all lenders, as reported through the applicant's credit bureau disclosure, must provide a written explanation of repayment capacity, which is reviewed manually by the credit analyst regardless of Aurelia Credit Score.
+
+The stated purpose of the loan must be disclosed at application, selected from a defined list including debt consolidation, medical expense, travel, home renovation, education, and general personal use. Loans disclosed for debt consolidation require the applicant to provide statements for the facilities being consolidated, and Aurelia Bank reserves the right to disburse the consolidation amount directly to the identified lenders rather than to the applicant, at the discretion of the underwriting officer, in order to confirm the stated purpose is fulfilled.
+
+=== Roles and Responsibilities
+
+The centralized unsecured lending unit is responsible for end-to-end processing of all Aurelia Personal Credit Line applications, regardless of the branch at which the customer initiated the request. Branch staff are responsible only for initial application capture and document collection where a customer applies in person; all underwriting, approval within delegated limits, and disbursement decisions rest with the centralized unit. The Collections and Recovery unit assumes responsibility for any account once it is classified as a Special Mention Account, as described below.
+
+=== Limits and Thresholds
+
+Aurelia Personal Credit Line loans range from a minimum of AUR 50,000 to a maximum of AUR 2,000,000. Loan tenure ranges from 12 to 60 months. The maximum permissible Debt-to-Income Ratio, inclusive of the proposed installment, is 50%, five percentage points higher than the equivalent limit for Aurelia Home Advantage, reflecting the shorter average tenure of personal loans.
+
+Fixed interest rates range from 11.5% per annum for Risk Grade A applicants to 19.75% per annum for Risk Grade D applicants, as detailed in the Interest Rate and Fee Policy (AUR-IRF-007). The processing fee is 1.75% of the approved loan amount, subject to a minimum of AUR 1,000 and a maximum of AUR 25,000.
+
+=== Disbursement and Repayment
+
+Approved loan amounts are disbursed as a single lump sum credit to the applicant's Aurelia Bank account; Aurelia Personal Credit Line does not support tranche-based or partial disbursement under any circumstance, distinguishing it from the construction-linked disbursement structure available under Aurelia Home Advantage. Repayment is structured as equal monthly installments over the selected tenure, with the first installment due 30 calendar days after disbursement. Borrowers may switch their scheduled installment date once per calendar year, subject to a minimum 5 business day advance request to the centralized unsecured lending unit.
+
+=== Exceptions
+
+Existing Aurelia Preferred Customers with a minimum relationship tenure of 3 years and a Risk Grade of A may be extended a processing fee waiver at the discretion of the Branch Manager. Applicants employed by an Aurelia Bank-approved employer with a Risk Grade of D, ordinarily capped at the standard maximum loan amount, may be considered for loans up to AUR 3,000,000 where the employer has a salary-assignment arrangement with Aurelia Bank, subject to Regional Credit Committee approval and an additional 1.5% rate loading over the standard Risk Grade D rate.
+
+=== Processing Procedure
+
+Personal loan applications are processed through the centralized unsecured lending unit rather than at branch level. Upon submission, the applicant's Aurelia Credit Score and existing credit bureau exposure are retrieved electronically within 1 business day. Income documents are verified within a further 1 business day for salaried applicants, or 2 business days for self-employed applicants. Approved applications are disbursed by direct credit to the applicant's Aurelia Bank account within 1 business day of final sign-off, making the standard end-to-end turnaround 2 to 4 business days depending on employment type.
+
+=== Review and Approval
+
+Applications up to AUR 500,000 may be approved by the Branch Manager or, for applications submitted through the centralized unit, by the designated Personal Loan Underwriting Officer. Applications between AUR 500,000 and AUR 2,000,000 require Regional Credit Committee approval. All exception cases, including the elevated employer-linked limit described above, require Regional Credit Committee approval regardless of amount.
+
+=== Effective Date
+
+Version 1.8 of the Personal Loan Product Manual is effective from 15 January 2026, superseding Version 1.7 dated 1 June 2025. This version introduces the employer-linked exception limit and revises the maximum DTI from 48% to 50%.
+
+== Documentation and Record-Keeping
+
+The loan file, including the application, income verification documents, and signed loan agreement, is retained in the bank's document management system for the loan tenure plus 8 years following final closure, consistent with the retention standard defined in the Financial Compliance Regulation (AUR-FC-009). Because Aurelia Personal Credit Line is unsecured, no collateral or valuation records are generated or retained, distinguishing the file composition from that of Aurelia Home Advantage.
+
+== Delinquency Handling
+
+Accounts that fall between 30 and 89 days past due are classified as Special Mention Accounts under the Credit Risk and Eligibility Policy and are transferred to the centralized collections queue, which attempts contact through the registered mobile number and email on file. Accounts reaching 90 days past due are classified as Non-Performing Exposures, at which point the file is referred to the Recovery unit and the customer's Aurelia Credit Score reflects the default, materially reducing eligibility for any future Aurelia Bank credit product.
+
+== Related Policies
+
+* Retail Banking Policy (AUR-RB-001)
+* Credit Risk and Eligibility Policy (AUR-CR-008)
+* Interest Rate and Fee Policy (AUR-IRF-007)
+* Customer Onboarding Policy (AUR-CO-005)
+* Home Loan Product Manual (AUR-HL-002)
+* Financial Compliance Regulation (AUR-FC-009)
+
+== Comparison with Secured Lending
+
+Aurelia Personal Credit Line differs from Aurelia Home Advantage in three structural respects that staff should keep in mind when advising customers who may qualify for either product. First, pricing is materially higher, reflecting the absence of collateral: even a Risk Grade A personal loan applicant, priced at 11.5% per annum, pays more than a Risk Grade C home loan applicant, priced at ABLR plus 1.85%. Second, processing is centralized and faster, with a standard turnaround of 2 to 4 business days against 10 to 15 business days for a typical home loan. Third, the maximum facility size of AUR 2,000,000 is a small fraction of the AUR 25,000,000 ceiling available under Aurelia Home Advantage, reflecting the higher risk concentration the bank is willing to accept without collateral.
+
+== Summary
+
+Aurelia Personal Credit Line offers unsecured loans between AUR 50,000 and AUR 2,000,000, over tenures of 12 to 60 months, to applicants with a minimum Aurelia Credit Score of 600. Pricing ranges from 11.5% to 19.75% per annum by Risk Grade, with a processing fee of 1.75% of the approved amount and a maximum Debt-to-Income Ratio of 50%, reflecting a faster, centrally underwritten process distinct from the branch-led, collateral-backed Home Loan workflow.

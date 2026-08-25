@@ -1,0 +1,90 @@
+= Financial Compliance Regulation
+Aurelia Bank
+:doctype: article
+:toc: left
+:sectnums:
+
+Policy ID: AUR-FC-009 +
+Version: 7.0 +
+Classification: Internal - Employee Use
+
+== Purpose
+
+This document sets out Aurelia Bank's internal implementation of fictional regulatory obligations owed to the Aurelia Financial Regulatory Commission (AFRC) and the Aurelia National Deposit Insurance Corporation (ANDIC), the two fictional supervisory bodies referenced throughout this synthetic corpus. It defines capital and liquidity requirements, regulatory reporting obligations, record retention standards, and restricted business sectors, and provides the compliance basis referenced by the Corporate Loan Policy (AUR-CL-004) and the KYC and AML Policy (AUR-KYC-006). All figures, bodies, and requirements described in this document are fictional and constructed solely for research purposes; they do not describe any real regulator or regulation. Every other policy in this corpus that imposes a retention period, a reporting deadline, or a sector exclusion ultimately traces that requirement back to this document.
+
+== Scope
+
+This regulation applies to Aurelia Bank as a whole, including all business divisions, branches, and digital channels. It governs prudential ratios calculated at the whole-bank level, as well as reporting, retention, and sector-restriction obligations that apply to individual customer relationships and transactions across the retail and corporate segments.
+
+== Definitions
+
+Aurelia Financial Regulatory Commission (AFRC):: The fictional national supervisory authority to which Aurelia Bank submits regulatory filings under this synthetic framework.
+
+Aurelia National Deposit Insurance Corporation (ANDIC):: The fictional deposit insurance body providing coverage to Aurelia Bank depositors under this synthetic framework.
+
+Capital Adequacy Ratio (CAR):: The ratio of Aurelia Bank's regulatory capital to its risk-weighted assets, expressed as a percentage.
+
+Liquidity Coverage Ratio (LCR):: The ratio of Aurelia Bank's high-quality liquid assets to its projected net cash outflows over a 30-day stress period.
+
+Aurelia Statutory Reserve Ratio (ASRR):: The proportion of eligible deposits that Aurelia Bank must hold with AFRC in reserve form, rather than deploy into lending or investment.
+
+Restricted Sector:: A category of business activity in which Aurelia Bank does not extend credit, as defined under this regulation.
+
+== Compliance Framework
+
+=== Eligibility
+
+This regulation applies uniformly to Aurelia Bank; there is no customer-level eligibility criterion for the prudential ratio requirements. Sector restrictions defined below apply to the eligibility of Corporate Customers and Small Business Customers for any lending product, as cross-referenced in the Corporate Loan Policy.
+
+=== Requirements
+
+Aurelia Bank is required to maintain a minimum Capital Adequacy Ratio of 11.5% at all times, calculated at the end of each business day and formally reported to AFRC quarterly. Aurelia Bank is required to maintain a minimum Liquidity Coverage Ratio of 100%, monitored daily by the Treasury division. Aurelia Bank is required to hold an Aurelia Statutory Reserve Ratio of 4.5% of eligible customer deposits with AFRC, calculated on a fortnightly average basis.
+
+Depositor funds are insured by ANDIC up to a maximum of AUR 500,000 per depositor, per institution, across all deposit accounts held in that depositor's name. This insurance limit applies automatically and does not require a separate application by the customer.
+
+=== Limits and Thresholds
+
+Quarterly regulatory filings, including the Capital Adequacy Report and Liquidity Position Report, are due to AFRC within 21 calendar days of each quarter end. Any breach of the minimum Capital Adequacy Ratio or Liquidity Coverage Ratio must be reported to AFRC within 2 business days of the breach being identified, together with a remediation plan.
+
+Restricted Sectors, in which Aurelia Bank does not extend credit under the Corporate Loan Policy or any other lending product, include unlicensed gaming operations, entities under active AFRC sanction, and any business appearing on the Financial Intelligence Unit-Aurelia watchlist referenced in the KYC and AML Policy. Applications from entities in adjacent but non-restricted sectors, such as licensed hospitality with an incidental gaming license, require additional Senior Credit Committee review even though they are not automatically excluded.
+
+Customer records, including KYC documentation, transaction history, and account statements, must be retained for a minimum of 8 years following account closure. Suspicious Transaction Report and Cash Transaction Report filings, together with their supporting documentation, must be retained for a minimum of 10 years from the date of filing.
+
+=== Exceptions
+
+A temporary Capital Adequacy Ratio shortfall arising from a one-off event, such as a large impairment recognized in a single reporting period, may be reported to AFRC with a remediation plan extending up to 2 quarters, subject to Board approval, without triggering the standard 2 business day breach notification if the shortfall is identified and disclosed proactively within the same reporting cycle in which it arose. No exception is available to the Restricted Sector exclusion; sector restrictions may only be lifted through formal policy amendment approved by the Board Credit Committee.
+
+=== Processing Procedure
+
+Daily Capital Adequacy Ratio and Liquidity Coverage Ratio calculations are performed automatically by the Treasury Risk system and reviewed each morning by the Treasury Risk team. Quarterly regulatory filings are compiled by the Regulatory Reporting team, reviewed by the Chief Financial Officer, and submitted to AFRC through the designated regulatory filing portal. Record retention is managed through the bank's document management system, which automatically flags records for review at the 8-year and 10-year retention milestones described above, rather than deleting them automatically, pending a manual disposal review.
+
+=== Roles and Responsibilities
+
+The Chief Financial Officer is accountable for the accuracy and timely submission of all quarterly regulatory filings to AFRC. The Treasury Risk team is responsible for daily monitoring of the Capital Adequacy Ratio and Liquidity Coverage Ratio and for escalating any threshold breach within the 2 business day window described above. The Compliance division is responsible for maintaining the Restricted Sector list, for approving record disposal following the retention review milestone, and for coordinating Aurelia Bank's response to any AFRC examination.
+
+=== Annual Compliance Audit
+
+Aurelia Bank commissions an independent annual compliance audit, covering adherence to the Capital Adequacy Ratio, Liquidity Coverage Ratio, and Aurelia Statutory Reserve Ratio requirements, the accuracy of quarterly AFRC filings, and the effectiveness of the Restricted Sector exclusion process described in the Corporate Loan Policy. Findings are presented to the Board Credit Committee within 45 calendar days of audit completion, and any finding classified as a material weakness requires a remediation plan with defined milestones, tracked by the Compliance division until closure.
+
+=== Review and Approval
+
+Quarterly regulatory filings require Chief Financial Officer sign-off prior to submission. Any Restricted Sector exception request, though generally unavailable, must in all cases be escalated to and decided by the Board Credit Committee. Record disposal following the retention review milestone requires Compliance division sign-off before any record is permanently deleted.
+
+=== Effective Date
+
+Version 7.0 of the Financial Compliance Regulation is effective from 1 January 2026, superseding Version 6.5 dated 1 January 2025. This version raises the minimum Capital Adequacy Ratio from 11.0% to 11.5% and extends transaction record retention from 7 years to 8 years.
+
+== Related Policies
+
+* Corporate Loan Policy (AUR-CL-004)
+* KYC and AML Policy (AUR-KYC-006)
+* Credit Risk and Eligibility Policy (AUR-CR-008)
+* Customer Onboarding Policy (AUR-CO-005)
+
+== Whistleblower and Escalation Channel
+
+Aurelia Bank maintains an internal whistleblower channel through which any employee may report a suspected breach of this regulation, including a suspected Restricted Sector violation or a suspected Capital Adequacy Ratio misstatement, directly to the Compliance division without going through their line management. Reports may be submitted anonymously, and the Compliance division is required to acknowledge receipt within 3 business days and to provide a substantive response or investigation update within 30 calendar days. Retaliation against an employee for a good-faith report made through this channel is treated as a disciplinary matter independent of the underlying report's outcome.
+
+== Summary
+
+This regulation requires Aurelia Bank to maintain a minimum Capital Adequacy Ratio of 11.5%, a minimum Liquidity Coverage Ratio of 100%, and an Aurelia Statutory Reserve Ratio of 4.5%, with quarterly filings due to AFRC within 21 calendar days of quarter end. It defines the fictional deposit insurance limit of AUR 500,000 per depositor provided by ANDIC, sets an 8-year minimum retention period for customer records, and establishes the Restricted Sector exclusions that feed directly into the Corporate Loan Policy's eligibility criteria.

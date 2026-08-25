@@ -1,0 +1,89 @@
+= Customer Onboarding Policy
+Aurelia Bank
+:doctype: article
+:toc: left
+:sectnums:
+
+Policy ID: AUR-CO-005 +
+Version: 2.6 +
+Classification: Internal - Employee Use
+
+== Purpose
+
+This policy defines the document requirements, verification steps, and turnaround standards for onboarding new customers at Aurelia Bank, across both retail and corporate segments. It operationalizes the Customer Due Diligence requirements set out in the KYC and AML Policy (AUR-KYC-006) into a concrete document checklist and processing workflow for branch and digital onboarding staff. Consistent onboarding practice matters not only for customer experience but for regulatory defensibility: every account Aurelia Bank opens must be traceable back to a documented, policy-compliant verification event, and this policy is the single reference staff use to demonstrate that traceability during an internal audit or an AFRC examination.
+
+== Scope
+
+This policy applies to the onboarding of all new customers, including Standard Retail Customers, Aurelia Preferred Customers, Small Business Customers, Non-Resident Customers, and Corporate Customers, as categorized in the Retail Banking Policy (AUR-RB-001). It covers onboarding through branch channels, the assisted digital onboarding channel, and the fully digital self-service channel described in the Digital Banking and Transaction Policy (AUR-DB-010).
+
+== Definitions
+
+Proof of Identity (POI):: A government-issued document establishing a customer's identity, such as a national identity card or passport.
+
+Proof of Address (POA):: A document establishing a customer's current residential or business address.
+
+Aurelia Tax Identification Number (ATIN):: The unique tax identifier required for all customers opening an account with Aurelia Bank, used for regulatory reporting under the Financial Compliance Regulation (AUR-FC-009).
+
+Customer Due Diligence (CDD):: The standard identity and address verification process applied to all new customers, as defined in the KYC and AML Policy.
+
+Turnaround Time (TAT):: The elapsed business time between application submission and account activation.
+
+== Onboarding Framework
+
+=== Eligibility
+
+Any individual meeting the age requirements of the Retail Banking Policy, and any business entity holding valid registration documentation, is eligible to be onboarded, subject to successful completion of Customer Due Diligence. Applicants who have previously been offboarded from Aurelia Bank due to a confirmed compliance violation are not eligible for re-onboarding without prior written clearance from the Compliance division.
+
+=== Requirements
+
+Individual retail applicants must submit one valid Proof of Identity, one valid Proof of Address, a recent passport-sized photograph, and their Aurelia Tax Identification Number. Acceptable forms of Proof of Identity include a national identity card, a passport, or a driving license bearing a photograph; a bank-issued document is never accepted as a standalone Proof of Identity, as it does not constitute independent third-party verification. A Proof of Address in the form of a utility bill must be dated within the preceding 3 months; a government-issued address document is accepted if issued within the preceding 2 years. Where a submitted POI and POA do not match in name due to a legal name change, a supporting name-change certificate is required.
+
+Small Business Customers must additionally provide a business registration certificate, proprietor or partner identification for all named principals, and a business address proof. Corporate Customers must provide the documentation set out in the Corporate Loan Policy (AUR-CL-004), including a board resolution, certificate of incorporation, and beneficial ownership declaration, as required under the KYC and AML Policy.
+
+Non-Resident Customers must provide an overseas address proof in addition to the standard POI and POA, and are subject to the Enhanced Due Diligence procedure described in the KYC and AML Policy prior to account activation.
+
+=== Limits and Thresholds
+
+Standard retail onboarding through the branch channel carries a target Turnaround Time of 2 business days from complete document submission to account activation. This 2 business day target is measured from the point of complete document submission, not from initial applicant contact, and excludes any period spent by the applicant gathering outstanding documents under the incomplete-application process described below. Corporate onboarding carries a target Turnaround Time of 5 business days, reflecting the additional beneficial ownership and Enhanced Due Diligence verification required. Digital self-service onboarding for Standard Retail Customers carries a target Turnaround Time of 1 business day where identity can be verified electronically against the national identity database.
+
+Newly onboarded accounts are subject to a provisional transaction limit of AUR 50,000 per day for the first 5 business days following account opening, as referenced in the Retail Banking Policy, pending final compliance sign-off.
+
+=== Exceptions
+
+Customers onboarding through the assisted digital channel due to a certified disability, as recognized under the Retail Banking Policy, may complete identity verification through a video-based verification call with a designated onboarding officer in place of in-person document presentation, provided the call is recorded and retained per the record-retention standards in the Financial Compliance Regulation. Small Business Customers unable to provide a formal business registration certificate because their jurisdiction of operation does not issue one may be onboarded on the basis of a notarized declaration of business activity, subject to Branch Manager approval and a reduced initial transaction limit of AUR 25,000 per day for the first 30 calendar days.
+
+=== Processing Procedure
+
+Onboarding begins with document collection at the branch, through the assisted digital channel, or through the digital self-service application. Collected documents are logged into the onboarding system and routed to the verification queue. A Verification Officer checks document authenticity and completeness, and cross-references the applicant against the Financial Intelligence Unit-Aurelia watchlist as required under the KYC and AML Policy. Upon successful verification, the account is provisionally activated with restricted limits as described above. A final compliance review is conducted within the first 5 business days, following which full transaction privileges are unlocked automatically unless the file has been escalated for Enhanced Due Diligence, in which case the provisional limits remain in place until resolution.
+
+=== Roles and Responsibilities
+
+The Verification Officer is responsible for first-line document authenticity checks and watchlist screening at the point of onboarding. The Branch Manager is responsible for approving any exception case and for periodic review of onboarding volumes and rejection rates at the branch level. The Compliance Liaison, a role designated at each branch, is responsible for the additional sign-off required for Corporate and Non-Resident Customer onboarding, and serves as the branch's point of escalation for any onboarding file requiring Enhanced Due Diligence under the KYC and AML Policy.
+
+=== Rejected and Incomplete Applications
+
+An onboarding application is marked incomplete, rather than rejected, if required documents are missing, and the applicant is given 15 calendar days to submit the outstanding items before the application is automatically closed. An application is marked rejected where submitted documents fail authenticity verification, where the applicant appears on the Financial Intelligence Unit-Aurelia watchlist, or where the applicant has been previously offboarded for a confirmed compliance violation without subsequent Compliance clearance. Rejected applications are retained in the onboarding system for 2 years for audit purposes, and the applicant is not automatically notified of the specific reason for rejection where doing so would conflict with the confidentiality provisions of the KYC and AML Policy.
+
+=== Review and Approval
+
+Standard individual onboarding may be approved by a Verification Officer upon successful document and watchlist checks. Onboarding involving any exception described above requires Branch Manager approval. Corporate and Non-Resident Customer onboarding requires additional sign-off from the branch's designated Compliance Liaison prior to final activation.
+
+=== Effective Date
+
+Version 2.6 of the Customer Onboarding Policy is effective from 1 February 2026, superseding Version 2.5 dated 1 August 2025. This version introduces the notarized declaration exception for Small Business Customers and reduces the standard retail digital onboarding TAT from 2 business days to 1 business day.
+
+== Related Policies
+
+* Retail Banking Policy (AUR-RB-001)
+* KYC and AML Policy (AUR-KYC-006)
+* Corporate Loan Policy (AUR-CL-004)
+* Digital Banking and Transaction Policy (AUR-DB-010)
+* Financial Compliance Regulation (AUR-FC-009)
+
+== Documentation and Record-Keeping
+
+All onboarding documents, including scanned copies of POI and POA, watchlist screening results, and any exception approval, are retained in the onboarding system for 8 years following account closure, consistent with the retention standard in the Financial Compliance Regulation (AUR-FC-009). Video-based verification recordings taken under the assisted digital channel exception are retained separately for the same 8-year period.
+
+== Summary
+
+This policy sets the document checklist and turnaround standards for onboarding across all customer categories, requiring a Proof of Identity, Proof of Address, and Aurelia Tax Identification Number for individuals, with additional registration and beneficial ownership documentation for business and corporate applicants. Standard retail onboarding targets a 2 business day Turnaround Time, corporate onboarding targets 5 business days, and all newly opened accounts operate under provisional transaction limits until final compliance sign-off is completed.

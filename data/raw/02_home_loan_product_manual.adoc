@@ -1,0 +1,91 @@
+= Home Loan Product Manual
+Aurelia Bank
+:doctype: article
+:toc: left
+:sectnums:
+
+Policy ID: AUR-HL-002 +
+Version: 2.4 +
+Classification: Internal - Employee Use
+
+== Purpose
+
+This manual sets out the product specifications, eligibility criteria, and operating procedures for Aurelia Home Advantage, Aurelia Bank's secured home loan product. It is intended for use by branch lending staff, credit analysts, and loan processing operations to originate, assess, and disburse home loans consistently across all branches. It should be read together with the Retail Banking Policy (AUR-RB-001), which defines the customer categories referenced here, and the Credit Risk and Eligibility Policy (AUR-CR-008), which defines the risk grading applied to every applicant.
+
+== Scope
+
+This manual applies to all home loan applications originated by Standard Retail Customers and Aurelia Preferred Customers for the purchase, construction, or extension of residential property, and for the refinancing of existing home loans held with other institutions. It does not apply to commercial real estate lending, which falls under the Corporate Loan Policy (AUR-CL-004), nor to unsecured borrowing, which is addressed in the Personal Loan Product Manual (AUR-PL-003).
+
+== Definitions
+
+Aurelia Home Advantage:: The branded home loan product offered under this manual, available in Fixed Rate and Floating Rate variants.
+
+Loan-to-Value Ratio (LTV):: The ratio of the sanctioned loan amount to the assessed market value of the mortgaged property, expressed as a percentage.
+
+Aurelia Base Lending Rate (ABLR):: The reference interest rate published quarterly by Aurelia Bank's Treasury division, against which floating-rate home loan pricing is benchmarked. ABLR is currently 8.75% per annum as of the effective date of this manual.
+
+Debt-to-Income Ratio (DTI):: The ratio of an applicant's total monthly debt obligations, including the proposed home loan installment, to their verified monthly income.
+
+Aurelia Credit Score (ACS):: The proprietary credit score, ranging from 300 to 900, assigned to each applicant under the Credit Risk and Eligibility Policy, which determines the applicant's Risk Grade and applicable interest rate spread.
+
+== Product Terms
+
+=== Eligibility
+
+Applicants must be Standard Retail Customers or Aurelia Preferred Customers as defined in the Retail Banking Policy, aged at least 21 years at the time of application. Salaried applicants must not exceed age 65 at loan maturity; self-employed applicants must not exceed age 65 at loan maturity under standard terms, though an exception to age 70 is available under the conditions described below. Applicants must have a minimum Aurelia Credit Score of 650, corresponding to Risk Grade C or better under the Credit Risk and Eligibility Policy; applicants below this threshold are not eligible for Aurelia Home Advantage under standard underwriting.
+
+Co-applicants are permitted, and a co-applicant's income may be combined with the primary applicant's income for the purpose of loan amount and DTI calculation, provided the co-applicant is a spouse, parent, or sibling of the primary applicant and is a party to the property title.
+
+=== Requirements
+
+Salaried applicants must provide the most recent 3 months of salary statements, the most recent 2 years of income tax filings, and an employment continuity letter. Self-employed applicants must provide 2 years of audited or self-certified financial statements and 2 years of income tax filings, consistent with the documentation standards described in the Customer Onboarding Policy (AUR-CO-005).
+
+All applicants must provide a registered sale agreement or construction agreement for the property being financed, and the property must undergo a valuation by an Aurelia Bank-empanelled valuer prior to sanction. Property title must be verified as free of encumbrance by the bank's legal team before disbursement.
+
+=== Limits and Thresholds
+
+Aurelia Home Advantage loans range from a minimum of AUR 500,000 to a maximum of AUR 25,000,000. The maximum Loan-to-Value Ratio is 80% of assessed property value for salaried applicants and 75% for self-employed applicants. Maximum loan tenure is 30 years, subject to the applicant's age at maturity not exceeding the limits described in Eligibility. The maximum permissible Debt-to-Income Ratio, inclusive of the proposed home loan installment and all existing obligations, is 45%.
+
+Interest rates on the Floating Rate variant are priced at ABLR plus a spread determined by Risk Grade: Risk Grade A applicants receive a spread of 0.40%, Risk Grade B a spread of 0.85%, and Risk Grade C a spread of 1.85%, all as defined under the Credit Risk and Eligibility Policy and the Interest Rate and Fee Policy (AUR-IRF-007). The processing fee is 0.50% of the sanctioned loan amount, subject to a minimum of AUR 5,000 and a maximum of AUR 75,000, as detailed in the Interest Rate and Fee Policy.
+
+=== Insurance and Risk Mitigation
+
+Every Aurelia Home Advantage loan requires the mortgaged property to be covered by a fire and structural insurance policy for the full outstanding loan amount throughout the loan tenure, with Aurelia Bank named as the loss payee. Borrowers are additionally offered, though not mandated to purchase, an Aurelia Loan Protection Cover, a reducing-balance term insurance product that settles the outstanding loan balance in the event of the borrower's death, with a one-time premium that may be financed within the loan amount subject to the maximum LTV limits described below. Property insurance lapses of more than 15 calendar days trigger an automated notice to the borrower and, if unresolved within 30 calendar days, Aurelia Bank may arrange a force-placed policy at the borrower's cost.
+
+=== Prepayment and Part-Payment
+
+Borrowers on the Floating Rate variant may make part-payments of any amount, subject to a minimum of AUR 25,000 per part-payment, without restriction on frequency, and without any part-payment charge, consistent with the foreclosure treatment described in the Interest Rate and Fee Policy. Borrowers on the Fixed Rate variant may make part-payments up to a cumulative maximum of 25% of the original principal per calendar year without charge; part-payments beyond this threshold attract the same foreclosure charge schedule applicable to full foreclosure. Every part-payment is applied to principal, and the borrower may elect to either reduce the monthly installment or shorten the remaining tenure, with tenure reduction applied by default absent an explicit borrower instruction.
+
+=== Exceptions
+
+Self-employed applicants with a Risk Grade A rating and a minimum of 5 years of continuous business operating history may be extended the loan tenure such that maturity age reaches 70 years, provided the loan is additionally secured by a fixed deposit lien of no less than 20% of the sanctioned amount, approved by the Regional Credit Committee. Applicants with an Aurelia Credit Score between 600 and 649, ordinarily Risk Grade D and therefore ineligible, may be considered on an exception basis if the LTV is capped at 60% and a co-applicant with a minimum Aurelia Credit Score of 750 is added to the application, subject to Central Credit Committee approval.
+
+=== Processing Procedure
+
+Upon receipt of a complete application, the branch lending officer performs an initial document check within 2 business days. The file is then forwarded to the credit analysis team, which completes income verification, DTI calculation, and Aurelia Credit Score retrieval within a further 3 business days. Property valuation and legal title verification are conducted in parallel and are expected to conclude within 7 business days of application. Upon receipt of a satisfactory valuation and legal report, the file is routed to the appropriate approval authority based on the sanctioned amount. Disbursement occurs within 3 business days of final approval and execution of loan documentation, either as a single disbursement for ready property purchase or in construction-linked tranches for under-construction property, with each tranche tied to a verified stage of construction.
+
+Sanction letters issued to approved applicants remain valid for 90 calendar days from the date of issue; if disbursement has not occurred within this window, the applicant must undergo a re-verification of income and Aurelia Credit Score before disbursement can proceed. For construction-linked disbursements, a moratorium period of up to 24 months from first disbursement is available during which only interest is payable on the disbursed amount; full principal and interest installments commence either at the end of the moratorium period or upon full disbursement, whichever occurs first. Stamp duty, registration charges, and legal documentation fees associated with the mortgage are borne by the borrower and are not included in the sanctioned loan amount or in the LTV calculation.
+
+=== Documentation and Record-Keeping
+
+The complete loan file, including the application, income documents, valuation report, legal opinion, and signed loan agreement, is retained in the bank's document management system for the full loan tenure plus an additional 8 years following final closure, consistent with the record retention standard set out in the Financial Compliance Regulation (AUR-FC-009). Any subsequent modification to loan terms, including part-payment tenure adjustments or rate reset elections, is logged as an addendum to the original loan agreement and retained under the same schedule.
+
+=== Review and Approval
+
+Applications up to AUR 2,000,000 may be approved by the Branch Manager. Applications between AUR 2,000,000 and AUR 10,000,000 require Regional Credit Committee approval. Applications exceeding AUR 10,000,000, and all exception cases described above, require Central Credit Committee approval. Every sanctioned home loan is subject to an annual portfolio review by the Credit Risk team as described in the Credit Risk and Eligibility Policy.
+
+=== Effective Date
+
+Version 2.4 of the Home Loan Product Manual is effective from 1 March 2026, superseding Version 2.3 dated 1 September 2024. The revised Risk Grade-based spread structure introduced in this version replaces the flat-spread model used prior to March 2026.
+
+== Related Policies
+
+* Retail Banking Policy (AUR-RB-001)
+* Credit Risk and Eligibility Policy (AUR-CR-008)
+* Interest Rate and Fee Policy (AUR-IRF-007)
+* Customer Onboarding Policy (AUR-CO-005)
+* Personal Loan Product Manual (AUR-PL-003)
+
+== Summary
+
+Aurelia Home Advantage offers secured home loans between AUR 500,000 and AUR 25,000,000, at up to 80% LTV for salaried applicants and 75% for self-employed applicants, over tenures of up to 30 years. Pricing is benchmarked to the Aurelia Base Lending Rate plus a Risk Grade-dependent spread, with a minimum Aurelia Credit Score of 650 required under standard underwriting and defined exception paths available for otherwise ineligible applicants under additional security and senior approval.

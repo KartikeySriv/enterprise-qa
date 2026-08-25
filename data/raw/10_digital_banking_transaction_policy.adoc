@@ -1,0 +1,90 @@
+= Digital Banking and Transaction Policy
+Aurelia Bank
+:doctype: article
+:toc: left
+:sectnums:
+
+Policy ID: AUR-DB-010 +
+Version: 4.5 +
+Classification: Internal - Employee Use
+
+== Purpose
+
+This policy governs Aurelia Bank's digital banking channels, including the AureliaPay mobile application and the associated Aurelia Instant Transfer and Aurelia QuickPay transaction rails. It defines transaction limits, authentication requirements, and fraud liability standards, and describes the digital self-service onboarding channel referenced in the Customer Onboarding Policy (AUR-CO-005). As digital channels now account for the majority of Aurelia Bank's day-to-day retail transaction volume, the limits and controls in this policy carry direct fraud-loss and liquidity implications, and are reviewed jointly with the Credit Risk division and Treasury on an annual basis.
+
+== Scope
+
+This policy applies to all customers using Aurelia Bank's digital channels, including the AureliaPay mobile application and the online banking portal, and to all Aurelia Bank staff responsible for digital channel operations, fraud monitoring, and customer dispute resolution. It applies across all customer categories defined in the Retail Banking Policy (AUR-RB-001).
+
+== Definitions
+
+AureliaPay:: Aurelia Bank's mobile banking application, providing account management, transfers, and bill payment functionality.
+
+Aurelia Instant Transfer (AIT):: A real-time, account-to-account fund transfer service available through AureliaPay and the online banking portal.
+
+Aurelia QuickPay (AQP):: A low-value, real-time person-to-person and merchant payment service linked to a customer's mobile number or QuickPay handle.
+
+Two-Factor Authentication (2FA):: A login or transaction authorization method requiring two independent verification factors, such as a password and a one-time passcode.
+
+== Digital Banking Framework
+
+=== Eligibility
+
+Any Standard Retail Customer, Aurelia Preferred Customer, or Small Business Customer with an active Aurelia Bank account and a registered mobile number is eligible to register for AureliaPay. Corporate Customers access digital services through the separate Aurelia Corporate Portal, which is governed by a distinct technical specification outside the scope of this policy. Customers onboarding through the fully digital self-service channel described in the Customer Onboarding Policy must complete electronic identity verification before AureliaPay access is granted.
+
+=== Requirements
+
+Registration for AureliaPay requires a registered and verified mobile number, completion of a device registration step involving a one-time passcode and a security question, and acceptance of the digital banking terms of use. Any new device added to a customer's profile is subject to a 24-hour cooling period before it may be used to initiate a transaction above AUR 50,000, as a fraud control measure. Two-Factor Authentication is mandatory for every AureliaPay login and for every transaction exceeding AUR 10,000, regardless of transaction type.
+
+=== Limits and Thresholds
+
+Aurelia Instant Transfer carries a per-transaction limit of AUR 200,000 and a combined daily limit of AUR 500,000 for Standard Retail Customers and Aurelia Preferred Customers, consistent with the daily transaction limits described in the Retail Banking Policy. Aurelia QuickPay carries a per-transaction limit of AUR 25,000 and a combined daily limit of AUR 100,000. The first 5 Aurelia Instant Transfer transactions in a calendar month are free of charge; each subsequent transaction incurs a fee of AUR 10, as detailed in the Interest Rate and Fee Policy (AUR-IRF-007). Aurelia QuickPay transactions carry no transaction fee under any circumstance.
+
+An idle AureliaPay session is automatically logged out after 5 minutes of inactivity. Customers may register a maximum of 3 devices to a single AureliaPay profile at any time; registering a fourth device requires deactivation of an existing device.
+
+=== Exceptions
+
+Aurelia Preferred Customers may request an elevated Aurelia Instant Transfer daily limit of up to AUR 1,000,000, subject to a supplementary risk assessment and Branch Manager approval, valid for a rolling 12-month period before requiring renewal. Customers who have reported 2 or more fraud incidents within a rolling 12-month period are placed on a reduced-limit profile, capping all digital transactions at AUR 50,000 per day until a manual review by the Fraud Operations team restores standard limits.
+
+=== Processing Procedure
+
+Aurelia Instant Transfer and Aurelia QuickPay transactions are processed in real time, with funds ordinarily available to the beneficiary within 60 seconds of initiation. Every transaction passes through an automated fraud-scoring engine prior to execution; transactions flagged as high-risk are held for manual review by the Fraud Operations team, which aims to clear or reject flagged transactions within 2 hours during business hours. New device registrations are processed immediately upon successful one-time passcode and security question verification, subject to the 24-hour cooling period described above.
+
+Customers disputing an unauthorized transaction must report it through the AureliaPay application, the customer service hotline, or in person at a branch. Reports are logged and investigated by the Fraud Operations team, which aims to resolve straightforward cases within 5 business days and complex cases, involving multiple transactions or suspected account takeover, within 15 business days.
+
+=== Roles and Responsibilities
+
+The Digital Banking Operations team is responsible for the day-to-day availability and performance of AureliaPay and the online banking portal, including monitoring uptime against an internal target of 99.5% availability measured monthly. The Fraud Operations team is responsible for reviewing system-flagged transactions, investigating customer disputes, and maintaining the reduced-limit profile process for repeat fraud reporters. The Head of Digital Banking is responsible for approving high-value fraud refunds and for annual review of transaction limits against prevailing fraud loss trends, in coordination with the Credit Risk division.
+
+=== Merchant and Bill Payment Services
+
+In addition to person-to-person transfers, Aurelia QuickPay supports merchant payments through static and dynamic QR codes displayed at participating merchant locations, subject to the same AUR 25,000 per-transaction limit applicable to person-to-person QuickPay transfers. AureliaPay additionally supports scheduled bill payments and standing instructions for recurring payments such as loan installments and utility bills; a standing instruction fails silently without penalty to the customer if the linked account has insufficient funds on the scheduled date, and the customer is notified the same business day so that a manual payment can be made before any late fee accrues on the underlying obligation.
+
+=== Documentation and Record-Keeping
+
+Transaction logs, device registration records, and fraud dispute case files are retained for 8 years, consistent with the retention standard defined in the Financial Compliance Regulation (AUR-FC-009). Fraud-scoring engine decisions, including the specific risk factors that triggered a manual review hold, are retained for 3 years to support periodic recalibration of the scoring model by the Digital Banking Operations team.
+
+=== Review and Approval
+
+Standard AureliaPay registration and transaction processing does not require manual approval and is governed entirely by the automated limits and controls described in this policy. Elevated limit requests require Branch Manager approval. Fraud dispute resolutions resulting in a customer refund require sign-off from a Fraud Operations Team Lead, and refunds exceeding AUR 500,000 require additional Head of Digital Banking approval.
+
+=== Effective Date
+
+Version 4.5 of the Digital Banking and Transaction Policy is effective from 1 February 2026, superseding Version 4.4 dated 1 July 2025. This version introduces the 24-hour new-device cooling period and raises the Aurelia Instant Transfer per-transaction limit from AUR 150,000 to AUR 200,000.
+
+== Fraud Liability Standard
+
+Aurelia Bank applies a tiered fraud liability standard for unauthorized digital transactions. A customer bears zero liability for an unauthorized transaction reported within 3 business days of its occurrence, provided the customer has not been negligent in safeguarding their credentials. A customer bears limited liability, capped at AUR 10,000, for an unauthorized transaction reported between 4 and 7 business days after its occurrence. Reports made beyond 7 business days, or cases involving customer negligence such as sharing a one-time passcode, result in full customer liability for the disputed amount, subject to case-by-case review by the Fraud Operations Team Lead.
+
+Liability determinations distinguish between unauthorized transactions, where a third party accessed the account without the customer's consent, and authorized-but-disputed transactions, such as a customer disputing the quality of goods purchased through Aurelia QuickPay; the tiered liability standard above applies only to the former, while the latter is handled as a standard merchant dispute outside the scope of this policy.
+
+== Related Policies
+
+* Retail Banking Policy (AUR-RB-001)
+* Customer Onboarding Policy (AUR-CO-005)
+* Interest Rate and Fee Policy (AUR-IRF-007)
+* KYC and AML Policy (AUR-KYC-006)
+
+== Summary
+
+This policy governs AureliaPay, Aurelia Bank's digital banking channel, setting a combined daily Aurelia Instant Transfer limit of AUR 500,000 and an Aurelia QuickPay daily limit of AUR 100,000, with mandatory Two-Factor Authentication above AUR 10,000. It establishes a tiered fraud liability standard ranging from zero liability for reports within 3 business days to full liability beyond 7 business days, and defines the device registration and cooling-period controls used to mitigate digital fraud risk.

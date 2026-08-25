@@ -1,0 +1,95 @@
+= Interest Rate and Fee Policy
+Aurelia Bank
+:doctype: article
+:toc: left
+:sectnums:
+
+Policy ID: AUR-IRF-007 +
+Version: 6.3 +
+Classification: Internal - Employee Use
+
+== Purpose
+
+This policy consolidates the interest rate benchmarks, pricing spreads, and fee schedules applied across Aurelia Bank's deposit and lending products. It is the authoritative reference for all rate and fee figures cited in the Home Loan Product Manual (AUR-HL-002), Personal Loan Product Manual (AUR-PL-003), Corporate Loan Policy (AUR-CL-004), and Retail Banking Policy (AUR-RB-001); where any other document states a figure, this policy governs in the event of a discrepancy pending formal reconciliation.
+
+== Scope
+
+This policy applies to all interest-bearing deposit accounts, all lending products, and all transaction and service fees charged by Aurelia Bank to retail, small business, and corporate customers. It is maintained jointly by the Treasury division, which sets benchmark rates, and the Product division, which sets fee schedules.
+
+== Definitions
+
+Aurelia Base Lending Rate (ABLR):: The benchmark rate for retail lending, reviewed and published quarterly by Treasury, currently 8.75% per annum.
+
+Aurelia Corporate Reference Rate (ACRR):: The benchmark rate for corporate lending, reviewed and published quarterly by Treasury, currently 9.10% per annum.
+
+Spread:: The percentage added to the applicable benchmark rate to arrive at a customer's final interest rate, determined by product and Risk Grade.
+
+Foreclosure Charge:: A fee applied when a borrower repays a loan in full ahead of its scheduled tenure.
+
+Non-Maintenance Charge:: A fee applied to a deposit account when the average balance falls below the minimum required for that account type.
+
+== Pricing and Fee Framework
+
+=== Eligibility
+
+All active loan and deposit accounts are subject to this policy. Rate and fee applicability depends on the Risk Grade assigned under the Credit Risk and Eligibility Policy (AUR-CR-008) and the customer category assigned under the Retail Banking Policy.
+
+=== Requirements
+
+Benchmark rates are reviewed by Treasury at the start of each calendar quarter and published to all branches and digital channels no later than the second business day of the quarter. Any change to ABLR or ACRR is applied to new originations immediately and to existing floating-rate accounts on their next scheduled reset date, which occurs quarterly in alignment with the loan's disbursement anniversary.
+
+=== Limits and Thresholds
+
+Home loan floating rates are priced at ABLR plus a Risk Grade spread of 0.40% for Grade A, 0.85% for Grade B, and 1.85% for Grade C, as detailed in the Home Loan Product Manual. Personal loan fixed rates range from 11.5% per annum for Risk Grade A, to 14.25% for Risk Grade B, 17.00% for Risk Grade C, and 19.75% for Risk Grade D. Corporate lending is priced at ACRR plus a spread of 0.75% for Risk Grade A, 1.50% for Risk Grade B, and 2.75% for Risk Grade C.
+
+Processing fees are 0.50% of sanctioned amount for home loans, subject to a minimum of AUR 5,000 and maximum of AUR 75,000; 1.75% of approved amount for personal loans, subject to a minimum of AUR 1,000 and maximum of AUR 25,000; and 1.00% of sanctioned limit for corporate facilities, subject to a cap of AUR 2,000,000.
+
+Late payment fees across all lending products are 2% of the overdue installment amount per month of delay, subject to a minimum charge of AUR 250 per occurrence. Foreclosure charges differ by product: floating-rate home loans carry no foreclosure charge for individual borrowers; fixed-rate home loans carry a foreclosure charge of 2% of outstanding principal if repaid within the first 3 years, reducing to 1% thereafter; personal loans carry a foreclosure charge of 2% of outstanding principal if repaid within the first 12 months, and no charge thereafter.
+
+Deposit interest is paid at 3.25% per annum on the Aurelia Savings Access Account and 3.75% per annum on the Preferred Current Account's linked savings sweep, calculated daily on closing balance and credited quarterly. Fixed deposits earn 7.50% per annum for a 1-year tenure, 7.75% for a 3-year tenure, and 8.00% for a 5-year tenure. Current accounts, other than the Preferred Current Account sweep balance, do not earn interest.
+
+The Non-Maintenance Charge is AUR 500 per month for a Standard Savings account falling below the AUR 5,000 minimum average balance, and AUR 1,000 per month for a Preferred Current Account falling below the AUR 50,000 minimum average balance, both as defined in the Retail Banking Policy. ATM transactions at non-Aurelia Bank ATMs are free for the first 5 transactions in a calendar month, after which a fee of AUR 25 per transaction applies.
+
+=== Exceptions
+
+Aurelia Preferred Customers with a minimum relationship tenure of 3 years receive a permanent waiver of ATM fees at non-Aurelia Bank ATMs, regardless of transaction count. Fixed deposit rates are increased by 0.25% per annum for senior citizens aged 60 years or older across all tenures, as a standing product feature rather than a case-by-case exception.
+
+=== Processing Procedure
+
+Rate changes approved by Treasury are pushed to the core banking system through a scheduled quarterly batch update. Fee schedule changes require Product division sign-off and a minimum 30 calendar day advance notice to affected customers before taking effect, communicated through statement inserts and the digital banking channel described in the Digital Banking and Transaction Policy (AUR-DB-010).
+
+=== Roles and Responsibilities
+
+The Treasury Rate Committee is responsible for setting and publishing ABLR and ACRR each quarter, based on prevailing funding costs and market benchmarks. The Product division is responsible for setting and revising service and transaction fees, subject to Finance division sign-off. Branch and digital channel staff are responsible for communicating current rates and fees accurately to customers but hold no authority to modify any rate or fee outside the exceptions explicitly defined in the relevant product manual.
+
+=== Rate Reset Mechanics
+
+For floating-rate loans, the applicable spread over ABLR, once assigned at origination based on the borrower's Risk Grade at that time, remains fixed for the life of the loan unless the borrower's Risk Grade is formally reassessed and a spread change is approved under the Credit Risk and Eligibility Policy (AUR-CR-008). Only the ABLR component resets quarterly; the Risk Grade-based spread is not automatically adjusted merely because ABLR has changed. Where a Risk Grade reassessment does result in a spread change, the revised rate takes effect from the borrower's next scheduled installment date, and the borrower is notified in writing at least 15 calendar days in advance.
+
+=== Review and Approval
+
+Changes to ABLR and ACRR are approved by the Treasury Rate Committee. Changes to product spreads by Risk Grade require joint sign-off from the Treasury Rate Committee and the Central Credit Committee. Changes to service and transaction fees require Product division and Finance division sign-off, with fee increases above 20% of the existing fee requiring additional Senior Management approval.
+
+=== Effective Date
+
+Version 6.3 of the Interest Rate and Fee Policy is effective from 1 January 2026, superseding Version 6.2 dated 1 October 2025. This version reflects the ABLR reduction from 9.00% to 8.75% and the CTR-linked ATM fee waiver extension for Aurelia Preferred Customers.
+
+== Related Policies
+
+* Home Loan Product Manual (AUR-HL-002)
+* Personal Loan Product Manual (AUR-PL-003)
+* Corporate Loan Policy (AUR-CL-004)
+* Credit Risk and Eligibility Policy (AUR-CR-008)
+* Retail Banking Policy (AUR-RB-001)
+
+== Summary
+
+This policy sets Aurelia Bank's benchmark rates at 8.75% per annum for ABLR and 9.10% per annum for ACRR, with Risk Grade-based spreads applied across home loan, personal loan, and corporate lending products, alongside consolidated processing fee, late payment fee, foreclosure charge, and deposit interest schedules. It functions as the single source of truth for pricing figures referenced throughout the product manuals and retail policy.
+
+== Miscellaneous Fees
+
+Beyond the lending and deposit fees described above, Aurelia Bank charges a duplicate statement fee of AUR 100 per statement requested in physical form, a stop-payment instruction fee of AUR 150 per cheque, and a returned-cheque fee of AUR 500 per instance of insufficient funds. Cheque book issuance is free for the first 2 books in a calendar year for all account types; subsequent books incur a charge of AUR 200 per book of 25 leaves. These miscellaneous fees are reviewed annually by the Product division rather than quarterly, reflecting their comparative stability relative to lending rates.
+
+== Additional Notes
+
+Where a customer holds multiple products, each product's fees and rates are applied independently; there is no netting of fees across products. All rates and fees quoted in this policy are exclusive of any applicable government levies, which are itemized separately on customer statements. This policy is reissued whenever either benchmark rate changes or whenever a product spread table is revised, even where no fee changes; version history is retained so that any historical rate applied to a customer's account can be reconstructed for dispute resolution or audit purposes.

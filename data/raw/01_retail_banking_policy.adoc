@@ -1,0 +1,99 @@
+= Retail Banking Policy
+Aurelia Bank
+:doctype: article
+:toc: left
+:sectnums:
+
+Policy ID: AUR-RB-001 +
+Version: 3.2 +
+Classification: Internal - Employee Use
+
+== Purpose
+
+This document establishes the foundational framework governing retail banking relationships at Aurelia Bank. It defines the customer segmentation model, account categories, and general service principles that all product-specific manuals and operational policies build upon. Every retail-facing policy issued by Aurelia Bank, including the Home Loan Product Manual (AUR-HL-002), the Personal Loan Product Manual (AUR-PL-003), and the Digital Banking and Transaction Policy (AUR-DB-010), assumes the customer categories and terminology defined here.
+
+The policy exists to ensure that branch staff, relationship managers, and operations teams apply a single, consistent definition of who a retail customer is, how that customer is classified, and what baseline entitlements and obligations attach to each classification. Without this shared foundation, product teams would apply inconsistent eligibility rules, and downstream compliance and risk policies would be unable to reference a stable customer taxonomy.
+
+== Scope
+
+This policy applies to all Aurelia Bank retail branches, digital banking channels, relationship management staff, and branch operations personnel. It covers individual customers, small business customers, and the point at which a business customer graduates out of retail coverage into the corporate banking segment governed by the Corporate Loan Policy (AUR-CL-004). It does not govern institutional treasury clients or interbank counterparties, which fall outside the retail banking mandate entirely.
+
+The policy applies from the moment a prospective customer initiates contact with Aurelia Bank through account opening, ongoing relationship management, and periodic review, up to and including account closure or reclassification.
+
+== Definitions
+
+Standard Retail Customer (SRC):: An individual customer whose average quarterly relationship balance is below AUR 1,000,000 and whose total relationship value is below AUR 5,000,000.
+
+Aurelia Preferred Customer (APC):: An individual customer maintaining an average quarterly balance of AUR 1,000,000 or more, or a total relationship value of AUR 5,000,000 or more, across deposits, loans, and investment holdings.
+
+Small Business Customer (SBC):: A sole proprietorship, partnership, or registered micro-enterprise with annual turnover below AUR 50,000,000, banking primarily through retail channels.
+
+Corporate Customer (CC):: A registered company or business entity with annual turnover of AUR 250,000,000 or more, or any entity that has been formally reclassified out of the SBC segment. Corporate Customers are governed by the Corporate Loan Policy (AUR-CL-004) rather than this document.
+
+Non-Resident Customer (NRC):: A customer whose primary residence and mailing address are outside Aurelia's domestic jurisdiction, subject to the enhanced verification requirements in the KYC and AML Policy (AUR-KYC-006).
+
+Relationship Value (RV):: The aggregate value of a customer's deposits, outstanding loan balances, and investment holdings with Aurelia Bank, calculated monthly for segmentation purposes.
+
+Aurelia Currency Unit (AUR):: The fictional functional currency used throughout Aurelia Bank's internal documentation and this synthetic corpus.
+
+== Retail Banking Framework
+
+=== Customer Categories and Segmentation
+
+Aurelia Bank segments retail customers into four primary categories: Standard Retail Customer, Aurelia Preferred Customer, Small Business Customer, and Non-Resident Customer. Segmentation is recalculated on the first business day of each calendar quarter based on the preceding quarter's average balances and relationship value. A Standard Retail Customer whose average quarterly balance rises to AUR 1,000,000 or above is automatically reclassified as an Aurelia Preferred Customer at the next quarterly review, and gains access to preferred servicing queues, reduced fee schedules under the Interest Rate and Fee Policy (AUR-IRF-007), and a dedicated relationship manager.
+
+A Small Business Customer whose annual turnover, as evidenced in the most recent audited or self-certified financial statement, exceeds AUR 50,000,000 in two consecutive financial years is flagged for graduation review. Once turnover exceeds AUR 250,000,000, the customer is formally reclassified as a Corporate Customer and transitioned to the Corporate Loan Policy framework; all retail-segment credit facilities are migrated or renegotiated under corporate terms within 180 calendar days of reclassification.
+
+=== Account Types and Product Suite
+
+The retail product suite consists of the Aurelia Savings Access Account, the Aurelia Preferred Current Account, and the Aurelia Current Business Account. The Aurelia Savings Access Account requires a minimum average monthly balance of AUR 5,000 for Standard Retail Customers; falling below this threshold in a given month triggers a non-maintenance charge as specified in the Interest Rate and Fee Policy. Aurelia Preferred Customers opening a Preferred Current Account are required to maintain a minimum average monthly balance of AUR 50,000, in exchange for which the non-maintenance charge is waived and the customer receives priority processing on all loan applications under the Home Loan Product Manual and Personal Loan Product Manual.
+
+The Aurelia Current Business Account is available exclusively to Small Business Customers and requires supporting business registration documentation as specified in the Customer Onboarding Policy (AUR-CO-005).
+
+=== Eligibility
+
+Any individual aged 18 years or older, who is legally competent to contract, is eligible to open a retail account in their own name. Minors between the ages of 10 and 18 may open a Minor Savings Account, operated jointly with a parent or legal guardian who has completed the standard onboarding process. Below the age of 10, an account may only be opened and operated entirely by the guardian on the minor's behalf.
+
+Small Business Customers must be registered under an applicable business registration scheme and must present the registration certificate, proprietor or partner identification, and a business address proof at the time of account opening, consistent with the requirements of the Customer Onboarding Policy.
+
+=== Requirements
+
+All retail account openings require completion of the standard Customer Due Diligence process defined in the KYC and AML Policy, including submission of a valid Proof of Identity, Proof of Address, and a recent photograph. Non-Resident Customers must additionally submit an overseas address proof and are subject to Enhanced Due Diligence prior to account activation.
+
+Existing customers seeking reclassification from Standard Retail Customer to Aurelia Preferred Customer status ahead of the standard quarterly review may submit a Relationship Value Certification Request to their branch, supported by statements evidencing the qualifying balance or relationship value, for manual review by the Branch Manager.
+
+=== Limits and Thresholds
+
+Standard Retail Customers are subject to a daily cash deposit limit of AUR 500,000 per account without additional declaration, and a daily ATM cash withdrawal limit of AUR 50,000. Aurelia Preferred Customers receive an elevated ATM withdrawal limit of AUR 100,000 per day. Cash transactions of AUR 1,000,000 or more in a single day trigger mandatory reporting obligations under the KYC and AML Policy, regardless of customer category.
+
+The minimum opening deposit for a Aurelia Savings Access Account is AUR 1,000. The minimum opening deposit for a Preferred Current Account is AUR 25,000.
+
+=== Exceptions
+
+Full-time students under the age of 25 who provide valid institutional enrollment proof are exempt from the minimum average balance requirement on the Aurelia Savings Access Account for the duration of their enrollment, subject to annual re-verification. Senior citizens aged 60 years or older receive a permanent waiver of the non-maintenance charge on Standard Savings accounts. Customers with certified disabilities affecting their ability to visit a branch in person may complete onboarding through the assisted digital onboarding channel described in the Digital Banking and Transaction Policy, subject to Branch Manager sign-off in place of an in-branch signature.
+
+=== Processing Procedure
+
+Account opening begins with prospective customer identification at the branch or through the digital onboarding channel, followed by document collection and verification as defined in the Customer Onboarding Policy. Upon successful KYC verification, the account is provisionally opened with restricted transaction limits for the first 5 business days, pending final compliance sign-off. Full transaction privileges are activated automatically on the sixth business day unless compliance flags the file for Enhanced Due Diligence, in which case activation is held pending resolution.
+
+Quarterly segmentation reviews are run automatically by the retail systems team on the first business day of January, April, July, and October. Customers moving between categories are notified in writing within 10 business days of reclassification.
+
+=== Review and Approval
+
+Account opening for Standard Retail Customers requires sign-off from a Branch Officer. Aurelia Preferred Customer account opening and any exception granted under this policy requires Branch Manager approval. Non-Resident Customer accounts require additional sign-off from the branch's designated Compliance Liaison prior to activation, in line with the KYC and AML Policy.
+
+=== Effective Date
+
+This version of the Retail Banking Policy, Version 3.2, is effective from 1 January 2026 and supersedes Version 3.1, dated 1 July 2024. All branches were required to complete staff briefings on the revised segmentation thresholds by 15 January 2026.
+
+== Related Policies
+
+* Customer Onboarding Policy (AUR-CO-005)
+* KYC and AML Policy (AUR-KYC-006)
+* Interest Rate and Fee Policy (AUR-IRF-007)
+* Corporate Loan Policy (AUR-CL-004)
+* Digital Banking and Transaction Policy (AUR-DB-010)
+
+== Summary
+
+This policy defines the four retail customer categories used across all Aurelia Bank documentation: Standard Retail Customer, Aurelia Preferred Customer, Small Business Customer, and Non-Resident Customer, along with the numerical thresholds that govern segmentation, reclassification into the corporate segment, account minimums, and transaction limits. It serves as the reference point for eligibility and terminology used throughout the Home Loan, Personal Loan, Onboarding, KYC/AML, Interest Rate and Fee, and Digital Banking policies.

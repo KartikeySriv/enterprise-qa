@@ -1,0 +1,93 @@
+= Corporate Loan Policy
+Aurelia Bank
+:doctype: article
+:toc: left
+:sectnums:
+
+Policy ID: AUR-CL-004 +
+Version: 4.1 +
+Classification: Internal - Employee Use
+
+== Purpose
+
+This policy governs the origination, assessment, approval, and monitoring of credit facilities extended to Corporate Customers of Aurelia Bank. It defines the two principal corporate lending products, Aurelia Corporate Term Finance and the Aurelia Working Capital Facility, and establishes the underwriting standards, collateral requirements, and approval hierarchy applicable to corporate lending decisions.
+
+== Scope
+
+This policy applies to all lending relationships with Corporate Customers, defined under the Retail Banking Policy (AUR-RB-001) as entities with annual turnover of AUR 250,000,000 or more, or entities formally reclassified from Small Business Customer status. It is used by the Corporate Banking division, Regional Corporate Credit Committees, and the Senior Credit Committee. It does not apply to retail lending products, which are governed separately by the Home Loan Product Manual (AUR-HL-002) and Personal Loan Product Manual (AUR-PL-003).
+
+== Definitions
+
+Aurelia Corporate Term Finance:: A fixed-tenure secured credit facility extended to Corporate Customers for capital expenditure, expansion, or asset acquisition purposes.
+
+Aurelia Working Capital Facility:: A revolving, annually renewable credit facility extended against a Corporate Customer's current assets to fund operating cycle requirements.
+
+Aurelia Corporate Reference Rate (ACRR):: The benchmark rate published quarterly by Aurelia Bank's Treasury division for corporate lending, currently 9.10% per annum as of the effective date of this policy.
+
+Debt Service Coverage Ratio (DSCR):: The ratio of a borrower's annual net operating income to its total annual debt service obligations, used to assess repayment capacity for term facilities.
+
+Hypothecation:: A form of security interest under which movable assets such as inventory or receivables are pledged as collateral without transfer of physical possession to the lender.
+
+== Corporate Lending Framework
+
+=== Eligibility
+
+A Corporate Customer must have been in continuous business operation for at least 3 years to be eligible for Aurelia Corporate Term Finance, and at least 2 years to be eligible for the Aurelia Working Capital Facility. The applicant entity must be classified as Risk Grade C or better under the Credit Risk and Eligibility Policy (AUR-CR-008), and must demonstrate a minimum Debt Service Coverage Ratio of 1.25x for any proposed term facility, calculated on a trailing 12-month basis and projected over the facility tenure.
+
+Entities operating in industries classified as Restricted Sectors under the Financial Compliance Regulation (AUR-FC-009) are not eligible for corporate lending under this policy regardless of financial standing, unless a specific exemption has been granted by the Board Credit Committee.
+
+=== Requirements
+
+Every corporate applicant must provide audited financial statements for the preceding 3 financial years, prepared by a registered independent auditor. Applicants must additionally provide a board resolution authorizing the borrowing, a corporate structure chart identifying beneficial ownership as required under the KYC and AML Policy (AUR-KYC-006), and, for Working Capital Facility applicants, a minimum of 12 months of bank statements evidencing operating cash flows.
+
+Term Finance applicants must submit a detailed project or capital expenditure plan, including projected cash flows for the facility tenure, and must provide collateral valuation reports from an Aurelia Bank-empanelled valuer.
+
+=== Limits and Thresholds
+
+Aurelia Corporate Term Finance is available from a minimum of AUR 5,000,000 to a maximum of AUR 500,000,000, with a maximum tenure of 10 years. The Aurelia Working Capital Facility is available up to a maximum limit of AUR 200,000,000, renewable annually subject to satisfactory account conduct and updated financial review.
+
+Term Finance facilities must be secured to a minimum of 100% of the sanctioned amount by fixed assets, typically property, plant, or equipment. Working Capital Facilities are secured by hypothecation of inventory and receivables, subject to a maximum drawing margin of 75% of the hypothecated asset value, meaning the borrower may draw up to 75% of the value of eligible inventory and receivables at any time.
+
+Pricing for both products is benchmarked to the Aurelia Corporate Reference Rate plus a spread determined by Risk Grade: 0.75% for Risk Grade A, 1.50% for Risk Grade B, and 2.75% for Risk Grade C, as further detailed in the Interest Rate and Fee Policy (AUR-IRF-007). The processing fee is 1.00% of the sanctioned limit, subject to a cap of AUR 2,000,000; for facilities above AUR 50,000,000, the processing fee is negotiable subject to Senior Credit Committee approval.
+
+=== Covenants and Monitoring
+
+Every Aurelia Corporate Term Finance facility carries a standard set of financial covenants tested quarterly, including maintenance of the minimum 1.25x DSCR, a maximum total-debt-to-equity ratio of 2.5x, and a minimum current ratio of 1.1x. A covenant breach does not automatically trigger default but requires the borrower to submit a remediation plan to the Corporate Banking Relationship Manager within 15 business days; two consecutive quarterly breaches of the same covenant escalate the facility to the Corporate Watchlist for enhanced monitoring, including monthly rather than quarterly financial reporting from the borrower.
+
+Working Capital Facilities are subject to a monthly drawing power certificate, in which the borrower reports current inventory and receivables levels, against which the 75% drawing margin is recalculated. A drawing power shortfall, where outstanding utilization exceeds the recalculated available margin, must be regularized by the borrower within 7 business days through either repayment or additional eligible collateral.
+
+=== Exceptions
+
+A Corporate Customer with fewer than 3 years of operating history may be considered for Aurelia Corporate Term Finance if the facility is fully secured by a fixed deposit lien or bank guarantee covering 100% of the sanctioned amount, subject to Senior Credit Committee approval. A DSCR below 1.25x, down to a floor of 1.10x, may be accepted where the borrower's parent entity provides an unconditional corporate guarantee rated Risk Grade A or better, subject to Board Credit Committee approval.
+
+=== Processing Procedure
+
+Corporate loan applications are managed by a dedicated Relationship Manager within the Corporate Banking division, who coordinates document collection and initial screening within 5 business days. The application is then referred to the Corporate Credit Analysis team for financial spreading, DSCR calculation, and Risk Grade assignment, a process expected to take 7 to 10 business days depending on facility complexity. Collateral valuation and legal due diligence proceed in parallel. Upon completion, the file is routed to the appropriate approval authority based on facility size. Disbursement for Term Finance facilities may occur in a single tranche or in project-linked tranches; Working Capital Facilities are activated as an available limit rather than disbursed as a lump sum.
+
+=== Review and Approval
+
+Facilities up to AUR 50,000,000 require Regional Corporate Credit Committee approval. Facilities between AUR 50,000,000 and AUR 200,000,000 require Senior Credit Committee approval. Facilities exceeding AUR 200,000,000, and all exception cases described above, require Board Credit Committee approval. All corporate facilities are subject to an annual credit review, and Working Capital Facilities require full renewal underwriting each year prior to the annual review date.
+
+=== Effective Date
+
+Version 4.1 of the Corporate Loan Policy is effective from 1 April 2026, superseding Version 4.0 dated 1 October 2024. This version revises the Working Capital Facility drawing margin from 70% to 75% and introduces the Restricted Sector exclusion referencing the Financial Compliance Regulation.
+
+== Roles and Responsibilities
+
+The Corporate Banking Relationship Manager owns the end-to-end customer relationship, including covenant monitoring and remediation follow-up, but does not hold independent approval authority for any facility size. The Corporate Credit Analysis team is responsible for independent financial spreading, DSCR calculation, and Risk Grade assignment, and reports through the Credit Risk division rather than through Corporate Banking, preserving separation between origination and underwriting. The Legal and Collateral Documentation team is responsible for perfecting security interests, including registration of charges over fixed assets and hypothecated current assets, before any disbursement is released.
+
+== Related Policies
+
+* Retail Banking Policy (AUR-RB-001)
+* Credit Risk and Eligibility Policy (AUR-CR-008)
+* Interest Rate and Fee Policy (AUR-IRF-007)
+* KYC and AML Policy (AUR-KYC-006)
+* Financial Compliance Regulation (AUR-FC-009)
+
+== Documentation and Record-Keeping
+
+The complete corporate credit file, including audited financial statements, board resolutions, valuation and legal reports, covenant test results, and drawing power certificates, is retained for the full facility tenure plus 8 years following final closure, consistent with the retention standard defined in the Financial Compliance Regulation (AUR-FC-009). Covenant test results and drawing power certificates are retained individually for each testing period, rather than only the most recent submission, to support audit trail requirements during regulatory examination.
+
+== Summary
+
+Aurelia Bank's corporate lending framework consists of Aurelia Corporate Term Finance, ranging from AUR 5,000,000 to AUR 500,000,000 over tenures of up to 10 years, and the Aurelia Working Capital Facility, available up to AUR 200,000,000 on an annually renewable basis. Both products require audited financial statements, a minimum Risk Grade of C, and, for term facilities, a minimum DSCR of 1.25x, with approval authority scaling from the Regional Corporate Credit Committee up to the Board Credit Committee based on facility size.

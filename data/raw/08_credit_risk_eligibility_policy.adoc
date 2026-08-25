@@ -1,0 +1,87 @@
+= Credit Risk and Eligibility Policy
+Aurelia Bank
+:doctype: article
+:toc: left
+:sectnums:
+
+Policy ID: AUR-CR-008 +
+Version: 3.9 +
+Classification: Internal - Employee Use
+
+== Purpose
+
+This policy defines the Aurelia Credit Score methodology and the resulting Risk Grade classification used across all lending decisions at Aurelia Bank. It establishes the scoring inputs, grade boundaries, and portfolio monitoring standards that the Home Loan Product Manual (AUR-HL-002), Personal Loan Product Manual (AUR-PL-003), and Corporate Loan Policy (AUR-CL-004) rely upon when stating eligibility thresholds. Because every lending product references Risk Grade rather than restating its own scoring logic, this policy functions as shared infrastructure: a change made here propagates automatically to eligibility and pricing across the entire lending portfolio, which is why amendments require Board Credit Committee approval regardless of how narrow the change appears.
+
+== Scope
+
+This policy applies to every credit application and every existing credit exposure held by Aurelia Bank, across retail, small business, and corporate segments. It is owned by the Credit Risk division and governs the work of credit analysts, the Regional Credit Committees, the Central Credit Committee, and the Board Credit Committee.
+
+== Definitions
+
+Aurelia Credit Score (ACS):: A proprietary score ranging from 300 to 900, calculated for every credit applicant and recalculated monthly for every existing borrower, used to derive a Risk Grade.
+
+Risk Grade:: A letter classification from A to E derived from a customer's Aurelia Credit Score, used to determine loan eligibility, pricing spread, and required collateral across all lending products.
+
+Special Mention Account (SMA):: An account classification applied when a borrower's installment or interest payment is between 30 and 89 days past due.
+
+Non-Performing Exposure (NPE):: An account classification applied when a borrower's installment or interest payment is 90 days or more past due, triggering mandatory provisioning and restricted further lending.
+
+== Credit Risk Framework
+
+=== Eligibility
+
+Every applicant for credit at Aurelia Bank, regardless of product, must have an Aurelia Credit Score calculated prior to any lending decision. Individuals with no prior credit history are assigned a provisional score based on income, employment stability, and banking relationship tenure, capped at a maximum provisional Risk Grade of B until 12 months of repayment history is established on an active Aurelia Bank facility.
+
+=== Requirements
+
+The Aurelia Credit Score is calculated from five weighted components: repayment history, weighted at 35%; credit utilization ratio across existing facilities, weighted at 30%; length of banking relationship, weighted at 15%; income or turnover stability, weighted at 10%; and total existing credit exposure relative to income, weighted at 10%. Each component is scored independently and combined to produce the final score, which is recalculated on the first business day of each month for every active borrower and on-demand at the point of any new application.
+
+=== Limits and Thresholds
+
+Risk Grades are assigned as follows: Risk Grade A corresponds to an Aurelia Credit Score of 750 or above; Risk Grade B corresponds to a score between 700 and 749; Risk Grade C corresponds to a score between 650 and 699; Risk Grade D corresponds to a score between 600 and 649; and Risk Grade E corresponds to a score below 600. Risk Grade E applicants are ineligible for Aurelia Personal Credit Line under any circumstance and are ineligible for Aurelia Home Advantage and corporate facilities except where explicitly permitted through the exception pathways defined in the respective product manuals.
+
+Accounts with payments between 30 and 89 days past due are classified as Special Mention Accounts and carry a mandatory provisioning requirement of 1% of outstanding exposure. Accounts 90 days or more past due are classified as Non-Performing Exposures and are further sub-classified as Substandard, at 25% provisioning, for exposures 90 to 179 days past due; Doubtful, at 50% provisioning, for exposures 180 to 365 days past due; and Loss, at 100% provisioning, for exposures beyond 365 days past due.
+
+=== Exceptions
+
+An applicant with an Aurelia Credit Score below the standard threshold for a given product may be considered under the specific collateral or co-applicant exception pathways defined in the Home Loan Product Manual, Personal Loan Product Manual, or Corporate Loan Policy, but in every case such exceptions require approval at least one level above the standard approval authority for the facility size in question. No exception may result in lending to a Risk Grade E applicant for an unsecured product.
+
+=== Processing Procedure
+
+Aurelia Credit Score calculation is fully automated and runs as part of the core credit decisioning engine at the point of application, drawing on internal repayment history, declared income or turnover, and external credit bureau data where available. For new-to-bank applicants without internal repayment history, the provisional scoring methodology described above is applied. Monthly recalculation for existing borrowers runs as a batch process on the first business day of each month, and any resulting Risk Grade downgrade triggers an automated notification to the relevant Relationship Manager for portfolio follow-up.
+
+=== Roles and Responsibilities
+
+Credit Risk Managers are responsible for reviewing and approving any manual override of a system-generated Aurelia Credit Score, and for maintaining the scoring model's component weightings. Relationship Managers are responsible for following up on Risk Grade downgrade notifications for their assigned portfolio, including initiating customer contact where a downgrade suggests emerging financial distress. The Central Credit Committee is responsible for quarterly portfolio-level review, and the Board Credit Committee is responsible for approving any change to the scoring methodology itself, including component weightings or Risk Grade boundaries.
+
+=== Collateral Valuation Standards
+
+Where a credit facility is secured, collateral is valued by an Aurelia Bank-empanelled valuer at origination and revalued periodically thereafter: property collateral securing Aurelia Home Advantage facilities is revalued every 3 years, while fixed asset collateral securing Aurelia Corporate Term Finance facilities is revalued annually, reflecting the comparatively higher volatility of business assets. A revaluation showing a decline in collateral value of more than 15% relative to the value used at origination triggers a mandatory review of the facility's LTV or security coverage, which may require the borrower to provide additional collateral or make a partial repayment to restore the required coverage ratio.
+
+=== Review and Approval
+
+Aurelia Credit Score calculation itself does not require manual approval, as it is a systematic process governed by this policy. However, any manual override of a system-generated score, whether upward or downward, requires written justification and sign-off from a Credit Risk Manager. Portfolio-level Risk Grade distribution is reviewed quarterly by the Central Credit Committee, and any material deterioration in the overall portfolio's average Risk Grade is escalated to the Board Credit Committee.
+
+=== Effective Date
+
+Version 3.9 of the Credit Risk and Eligibility Policy is effective from 1 January 2026, superseding Version 3.8 dated 1 January 2025. This version introduces the capped provisional Risk Grade of B for new-to-bank applicants, replacing the previous flat provisional Risk Grade of C.
+
+== Related Policies
+
+* Home Loan Product Manual (AUR-HL-002)
+* Personal Loan Product Manual (AUR-PL-003)
+* Corporate Loan Policy (AUR-CL-004)
+* Interest Rate and Fee Policy (AUR-IRF-007)
+* Financial Compliance Regulation (AUR-FC-009)
+
+== Documentation and Record-Keeping
+
+Every Aurelia Credit Score calculation, including the individual component scores that produced it, is logged and retained for 8 years following account closure, consistent with the retention standard defined in the Financial Compliance Regulation (AUR-FC-009). Manual override justifications are retained as a permanent part of the credit file and are reviewed as part of the annual internal audit of the Credit Risk division.
+
+== Comparison Across Products
+
+Because Risk Grade is calculated identically regardless of the product being applied for, a single applicant carries one Risk Grade across all Aurelia Bank products at any given time, though the consequences of a given Risk Grade differ by product: a Risk Grade C applicant is at the minimum eligibility floor for Aurelia Home Advantage and for corporate lending, yet comfortably eligible for Aurelia Personal Credit Line, where the floor is Risk Grade D. This shared scoring foundation is what allows the Home Loan Product Manual, Personal Loan Product Manual, and Corporate Loan Policy to reference Risk Grade directly rather than maintaining separate, product-specific scoring systems.
+
+== Summary
+
+This policy defines the Aurelia Credit Score, ranging from 300 to 900, and the five Risk Grades derived from it, from Grade A at 750 and above down to Grade E below 600. It sets the provisioning framework for Special Mention Accounts and Non-Performing Exposures, and establishes the eligibility floor of Risk Grade C or better used consistently across the Home Loan, Personal Loan, and Corporate Loan policies, subject only to the narrow, senior-approved exception pathways each product manual defines.
