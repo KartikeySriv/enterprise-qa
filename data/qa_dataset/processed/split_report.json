@@ -1,0 +1,107 @@
+{
+  "seed": 42,
+  "total_examples": 150,
+  "train_count": 105,
+  "validation_count": 23,
+  "test_count": 22,
+  "train_percentage": 70.0,
+  "validation_percentage": 15.33,
+  "test_percentage": 14.67,
+  "document_distribution": {
+    "01_retail_banking_policy": {
+      "train": 11,
+      "validation": 2,
+      "test": 2
+    },
+    "02_home_loan_product_manual": {
+      "train": 11,
+      "validation": 2,
+      "test": 2
+    },
+    "03_personal_loan_product_manual": {
+      "train": 10,
+      "validation": 2,
+      "test": 3
+    },
+    "04_corporate_loan_policy": {
+      "train": 11,
+      "validation": 2,
+      "test": 2
+    },
+    "05_customer_onboarding_policy": {
+      "train": 11,
+      "validation": 2,
+      "test": 2
+    },
+    "06_kyc_aml_policy": {
+      "train": 10,
+      "validation": 3,
+      "test": 2
+    },
+    "07_interest_rate_fee_policy": {
+      "train": 10,
+      "validation": 3,
+      "test": 2
+    },
+    "08_credit_risk_eligibility_policy": {
+      "train": 10,
+      "validation": 2,
+      "test": 3
+    },
+    "09_financial_compliance_regulation": {
+      "train": 10,
+      "validation": 3,
+      "test": 2
+    },
+    "10_digital_banking_transaction_policy": {
+      "train": 11,
+      "validation": 2,
+      "test": 2
+    }
+  },
+  "question_type_distribution": {
+    "train": {
+      "approval": 8,
+      "condition": 5,
+      "date": 6,
+      "definition": 12,
+      "eligibility": 5,
+      "exception": 8,
+      "fee_or_rate": 8,
+      "limit": 15,
+      "numerical": 5,
+      "policy_relationship": 8,
+      "procedure": 4,
+      "product_information": 2,
+      "requirement": 10,
+      "threshold": 9
+    },
+    "validation": {
+      "approval": 1,
+      "condition": 2,
+      "date": 3,
+      "definition": 5,
+      "eligibility": 1,
+      "exception": 1,
+      "fee_or_rate": 1,
+      "numerical": 2,
+      "policy_relationship": 1,
+      "requirement": 1,
+      "responsibility": 1,
+      "threshold": 4
+    },
+    "test": {
+      "approval": 2,
+      "condition": 1,
+      "date": 2,
+      "definition": 6,
+      "eligibility": 2,
+      "fee_or_rate": 1,
+      "limit": 1,
+      "procedure": 3,
+      "requirement": 3,
+      "threshold": 1
+    }
+  },
+  "validation_problems": []
+}

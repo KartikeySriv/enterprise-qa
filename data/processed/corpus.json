@@ -1,0 +1,101 @@
+{
+  "corpus_name": "Aurelia Bank Synthetic Research Corpus",
+  "synthetic": true,
+  "source_format": "AsciiDoc",
+  "document_count": 10,
+  "documents_successfully_processed": 10,
+  "record_count": 154,
+  "records_removed": 0,
+  "documents": [
+    {
+      "document_id": "01_retail_banking_policy",
+      "title": "Retail Banking Policy",
+      "source_file": "01_retail_banking_policy.adoc",
+      "policy_id": "AUR-RB-001",
+      "version": "3.2",
+      "record_count": 14,
+      "records_removed": 0
+    },
+    {
+      "document_id": "02_home_loan_product_manual",
+      "title": "Home Loan Product Manual",
+      "source_file": "02_home_loan_product_manual.adoc",
+      "policy_id": "AUR-HL-002",
+      "version": "2.4",
+      "record_count": 15,
+      "records_removed": 0
+    },
+    {
+      "document_id": "03_personal_loan_product_manual",
+      "title": "Personal Loan Product Manual",
+      "source_file": "03_personal_loan_product_manual.adoc",
+      "policy_id": "AUR-PL-003",
+      "version": "1.8",
+      "record_count": 17,
+      "records_removed": 0
+    },
+    {
+      "document_id": "04_corporate_loan_policy",
+      "title": "Corporate Loan Policy",
+      "source_file": "04_corporate_loan_policy.adoc",
+      "policy_id": "AUR-CL-004",
+      "version": "4.1",
+      "record_count": 15,
+      "records_removed": 0
+    },
+    {
+      "document_id": "05_customer_onboarding_policy",
+      "title": "Customer Onboarding Policy",
+      "source_file": "05_customer_onboarding_policy.adoc",
+      "policy_id": "AUR-CO-005",
+      "version": "2.6",
+      "record_count": 15,
+      "records_removed": 0
+    },
+    {
+      "document_id": "06_kyc_aml_policy",
+      "title": "KYC and AML Policy",
+      "source_file": "06_kyc_aml_policy.adoc",
+      "policy_id": "AUR-KYC-006",
+      "version": "5.0",
+      "record_count": 15,
+      "records_removed": 0
+    },
+    {
+      "document_id": "07_interest_rate_fee_policy",
+      "title": "Interest Rate and Fee Policy",
+      "source_file": "07_interest_rate_fee_policy.adoc",
+      "policy_id": "AUR-IRF-007",
+      "version": "6.3",
+      "record_count": 16,
+      "records_removed": 0
+    },
+    {
+      "document_id": "08_credit_risk_eligibility_policy",
+      "title": "Credit Risk and Eligibility Policy",
+      "source_file": "08_credit_risk_eligibility_policy.adoc",
+      "policy_id": "AUR-CR-008",
+      "version": "3.9",
+      "record_count": 16,
+      "records_removed": 0
+    },
+    {
+      "document_id": "09_financial_compliance_regulation",
+      "title": "Financial Compliance Regulation",
+      "source_file": "09_financial_compliance_regulation.adoc",
+      "policy_id": "AUR-FC-009",
+      "version": "7.0",
+      "record_count": 15,
+      "records_removed": 0
+    },
+    {
+      "document_id": "10_digital_banking_transaction_policy",
+      "title": "Digital Banking and Transaction Policy",
+      "source_file": "10_digital_banking_transaction_policy.adoc",
+      "policy_id": "AUR-DB-010",
+      "version": "4.5",
+      "record_count": 16,
+      "records_removed": 0
+    }
+  ]
+}

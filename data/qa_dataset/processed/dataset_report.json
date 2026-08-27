@@ -1,0 +1,98 @@
+{
+  "input_file_count": 10,
+  "total_examples_read": 150,
+  "valid_examples": 150,
+  "invalid_examples": 0,
+  "duplicate_ids": [],
+  "duplicate_questions": [],
+  "duplicate_question_context_pairs": [],
+  "answer_offset_errors": [],
+  "unknown_question_types": [],
+  "normalized_question_type_counts": {
+    "definition": 23,
+    "eligibility": 8,
+    "requirement": 14,
+    "limit": 16,
+    "threshold": 14,
+    "date": 11,
+    "procedure": 7,
+    "responsibility": 1,
+    "exception": 9,
+    "approval": 11,
+    "policy_relationship": 9,
+    "fee_or_rate": 10,
+    "condition": 8,
+    "numerical": 7,
+    "product_information": 2
+  },
+  "examples_per_document": {
+    "01_retail_banking_policy": 15,
+    "02_home_loan_product_manual": 15,
+    "03_personal_loan_product_manual": 15,
+    "04_corporate_loan_policy": 15,
+    "05_customer_onboarding_policy": 15,
+    "06_kyc_aml_policy": 15,
+    "07_interest_rate_fee_policy": 15,
+    "08_credit_risk_eligibility_policy": 15,
+    "09_financial_compliance_regulation": 15,
+    "10_digital_banking_transaction_policy": 15
+  },
+  "output_example_count": 150,
+  "per_file_stats": {
+    "01_retail_banking_policy_qa.json": {
+      "examples_read": 15,
+      "valid": 15,
+      "invalid": 0
+    },
+    "02_home_loan_product_manual_qa.json": {
+      "examples_read": 15,
+      "valid": 15,
+      "invalid": 0
+    },
+    "03_personal_loan_product_manual_qa.json": {
+      "examples_read": 15,
+      "valid": 15,
+      "invalid": 0
+    },
+    "04_corporate_loan_policy_qa.json": {
+      "examples_read": 15,
+      "valid": 15,
+      "invalid": 0
+    },
+    "05_customer_onboarding_policy_qa.json": {
+      "examples_read": 15,
+      "valid": 15,
+      "invalid": 0
+    },
+    "06_kyc_aml_policy_qa.json": {
+      "examples_read": 15,
+      "valid": 15,
+      "invalid": 0
+    },
+    "07_interest_rate_fee_policy_qa.json": {
+      "examples_read": 15,
+      "valid": 15,
+      "invalid": 0
+    },
+    "08_credit_risk_eligibility_policy_qa.json": {
+      "examples_read": 15,
+      "valid": 15,
+      "invalid": 0
+    },
+    "09_financial_compliance_regulation_qa.json": {
+      "examples_read": 15,
+      "valid": 15,
+      "invalid": 0
+    },
+    "10_digital_banking_transaction_policy_qa.json": {
+      "examples_read": 15,
+      "valid": 15,
+      "invalid": 0
+    }
+  },
+  "invalid_example_details": [],
+  "files_failed_to_load": [],
+  "unrecognized_filenames": [],
+  "files_with_unexpected_example_count": {},
+  "final_validation_problems": []
+}
