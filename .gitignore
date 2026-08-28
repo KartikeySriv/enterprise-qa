@@ -1,1 +1,13 @@
-.venv
+# Ignore python virtual environments
+.venv/
+__pycache__/
+
+# Ignore Hugging Face machine learning models and checkpoints
+models/
+checkpoint-*/
+
+# Ignore heavy training/processed data files
+*.safetensors
+*.bin
+*.arrow
+data/processed/

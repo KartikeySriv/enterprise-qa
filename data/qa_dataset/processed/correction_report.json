@@ -1,0 +1,36 @@
+{
+  "input_file": "D:\\CODING\\CODE\\enterprise--qa\\data\\qa_dataset\\processed\\all_examples.jsonl",
+  "backup_file": "D:\\CODING\\CODE\\enterprise--qa\\data\\qa_dataset\\processed\\all_examples.before_correction.jsonl",
+  "total_records": 150,
+  "corrections_applied": 4,
+  "corrections": [
+    {
+      "id": "02_home_loan_product_manual__qa_008",
+      "old_answer": "0.85%",
+      "new_answer": "0.85%,",
+      "answer_start": 179,
+      "reason": "The answer ends immediately before a comma that is part of the tokenizer-aligned span."
+    },
+    {
+      "id": "09_financial_compliance_regulation__qa_004",
+      "old_answer": "100%",
+      "new_answer": "100%,",
+      "answer_start": 75,
+      "reason": "The answer ends immediately before a comma that is part of the tokenizer-aligned span."
+    },
+    {
+      "id": "05_customer_onboarding_policy__qa_002",
+      "old_answer": "The unique tax identifier required for all customers opening an account with Aurelia Bank, used for regulatory reporting under the Financial Compliance Regulation (AUR-FC-009)",
+      "new_answer": "The unique tax identifier required for all customers opening an account with Aurelia Bank, used for regulatory reporting under the Financial Compliance Regulation (AUR-FC-009).",
+      "answer_start": 43,
+      "reason": "The answer ends immediately before the sentence-final period that is part of the tokenizer-aligned span."
+    },
+    {
+      "id": "08_credit_risk_eligibility_policy__qa_005",
+      "old_answer": "35%",
+      "new_answer": "35%;",
+      "answer_start": 101,
+      "reason": "The answer ends immediately before a semicolon that is part of the tokenizer-aligned span."
+    }
+  ]
+}

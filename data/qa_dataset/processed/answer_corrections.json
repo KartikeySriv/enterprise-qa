@@ -1,0 +1,22 @@
+{
+  "02_home_loan_product_manual__qa_008": {
+    "answer_text": "0.85%,",
+    "answer_start": 179,
+    "reason": "Answer span must align with tokenizer boundary; comma is attached to the percentage in source context."
+  },
+  "09_financial_compliance_regulation__qa_004": {
+    "answer_text": "100%,",
+    "answer_start": 75,
+    "reason": "Answer span must align with tokenizer boundary; comma is attached to the percentage in source context."
+  },
+  "05_customer_onboarding_policy__qa_002": {
+    "answer_text": "The unique tax identifier required for all customers opening an account with Aurelia Bank, used for regulatory reporting under the Financial Compliance Regulation (AUR-FC-009).",
+    "answer_start": 43,
+    "reason": "Answer span must align with tokenizer boundary; sentence-final period is attached to the answer."
+  },
+  "08_credit_risk_eligibility_policy__qa_005": {
+    "answer_text": "35%;",
+    "answer_start": 101,
+    "reason": "Answer span must align with tokenizer boundary; semicolon is attached to the percentage in source context."
+  }
+}
