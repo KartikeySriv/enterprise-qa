@@ -1,0 +1,1271 @@
+{
+  "model": "BAAI/bge-small-en-v1.5",
+  "dataset": "test.jsonl",
+  "test_examples": 22,
+  "document_records": 154,
+  "embedding_dimension": 384,
+  "recall_at_1": 0.6363636363636364,
+  "recall_at_3": 0.8636363636363636,
+  "recall_at_5": 0.9090909090909091,
+  "hits": {
+    "recall_at_1": 14,
+    "recall_at_3": 19,
+    "recall_at_5": 20
+  },
+  "results": [
+    {
+      "id": "01_retail_banking_policy__qa_002",
+      "question": "What is a Small Business Customer?",
+      "gold_record_id": "01_retail_banking_policy__record_003",
+      "gold_document_id": "01_retail_banking_policy",
+      "gold_section": "Definitions",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "01_retail_banking_policy__record_003",
+          "document_id": "01_retail_banking_policy",
+          "document_title": "Retail Banking Policy",
+          "section": "Definitions",
+          "subsection": null,
+          "score": 0.6816777586936951
+        },
+        {
+          "rank": 2,
+          "record_id": "01_retail_banking_policy__record_014",
+          "document_id": "01_retail_banking_policy",
+          "document_title": "Retail Banking Policy",
+          "section": "Summary",
+          "subsection": null,
+          "score": 0.650338351726532
+        },
+        {
+          "rank": 3,
+          "record_id": "05_customer_onboarding_policy__record_002",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Scope",
+          "subsection": null,
+          "score": 0.6298900246620178
+        },
+        {
+          "rank": 4,
+          "record_id": "01_retail_banking_policy__record_004",
+          "document_id": "01_retail_banking_policy",
+          "document_title": "Retail Banking Policy",
+          "section": "Retail Banking Framework",
+          "subsection": "Customer Categories and Segmentation",
+          "score": 0.6198257803916931
+        },
+        {
+          "rank": 5,
+          "record_id": "05_customer_onboarding_policy__record_007",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Onboarding Framework",
+          "subsection": "Exceptions",
+          "score": 0.6177974343299866
+        }
+      ]
+    },
+    {
+      "id": "01_retail_banking_policy__qa_011",
+      "question": "How long does the account remain provisionally opened with restricted transaction limits?",
+      "gold_record_id": "01_retail_banking_policy__record_010",
+      "gold_document_id": "01_retail_banking_policy",
+      "gold_section": "Retail Banking Framework",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "01_retail_banking_policy__record_010",
+          "document_id": "01_retail_banking_policy",
+          "document_title": "Retail Banking Policy",
+          "section": "Retail Banking Framework",
+          "subsection": "Processing Procedure",
+          "score": 0.8073621988296509
+        },
+        {
+          "rank": 2,
+          "record_id": "09_financial_compliance_regulation__record_006",
+          "document_id": "09_financial_compliance_regulation",
+          "document_title": "Financial Compliance Regulation",
+          "section": "Compliance Framework",
+          "subsection": "Limits and Thresholds",
+          "score": 0.7336235046386719
+        },
+        {
+          "rank": 3,
+          "record_id": "05_customer_onboarding_policy__record_006",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Onboarding Framework",
+          "subsection": "Limits and Thresholds",
+          "score": 0.7263593077659607
+        },
+        {
+          "rank": 4,
+          "record_id": "05_customer_onboarding_policy__record_008",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Onboarding Framework",
+          "subsection": "Processing Procedure",
+          "score": 0.7255334854125977
+        },
+        {
+          "rank": 5,
+          "record_id": "06_kyc_aml_policy__record_006",
+          "document_id": "06_kyc_aml_policy",
+          "document_title": "KYC and AML Policy",
+          "section": "KYC and AML Framework",
+          "subsection": "Limits and Thresholds",
+          "score": 0.7255297899246216
+        }
+      ]
+    },
+    {
+      "id": "02_home_loan_product_manual__qa_015",
+      "question": "When did Version 2.3 of the Home Loan Product Manual take effect?",
+      "gold_record_id": "02_home_loan_product_manual__record_013",
+      "gold_document_id": "02_home_loan_product_manual",
+      "gold_section": "Product Terms",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "02_home_loan_product_manual__record_013",
+          "document_id": "02_home_loan_product_manual",
+          "document_title": "Home Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Effective Date",
+          "score": 0.810692310333252
+        },
+        {
+          "rank": 2,
+          "record_id": "03_personal_loan_product_manual__record_012",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Effective Date",
+          "score": 0.7925409078598022
+        },
+        {
+          "rank": 3,
+          "record_id": "08_credit_risk_eligibility_policy__record_013",
+          "document_id": "08_credit_risk_eligibility_policy",
+          "document_title": "Credit Risk and Eligibility Policy",
+          "section": "Related Policies",
+          "subsection": null,
+          "score": 0.7400859594345093
+        },
+        {
+          "rank": 4,
+          "record_id": "07_interest_rate_fee_policy__record_013",
+          "document_id": "07_interest_rate_fee_policy",
+          "document_title": "Interest Rate and Fee Policy",
+          "section": "Related Policies",
+          "subsection": null,
+          "score": 0.7389233112335205
+        },
+        {
+          "rank": 5,
+          "record_id": "02_home_loan_product_manual__record_002",
+          "document_id": "02_home_loan_product_manual",
+          "document_title": "Home Loan Product Manual",
+          "section": "Scope",
+          "subsection": null,
+          "score": 0.7071393728256226
+        }
+      ]
+    },
+    {
+      "id": "02_home_loan_product_manual__qa_001",
+      "question": "What is the Aurelia Base Lending Rate?",
+      "gold_record_id": "02_home_loan_product_manual__record_003",
+      "gold_document_id": "02_home_loan_product_manual",
+      "gold_section": "Definitions",
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "03_personal_loan_product_manual__record_017",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Summary",
+          "subsection": null,
+          "score": 0.8513352870941162
+        },
+        {
+          "rank": 2,
+          "record_id": "02_home_loan_product_manual__record_015",
+          "document_id": "02_home_loan_product_manual",
+          "document_title": "Home Loan Product Manual",
+          "section": "Summary",
+          "subsection": null,
+          "score": 0.8345432877540588
+        },
+        {
+          "rank": 3,
+          "record_id": "03_personal_loan_product_manual__record_007",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Limits and Thresholds",
+          "score": 0.8215183019638062
+        },
+        {
+          "rank": 4,
+          "record_id": "04_corporate_loan_policy__record_015",
+          "document_id": "04_corporate_loan_policy",
+          "document_title": "Corporate Loan Policy",
+          "section": "Summary",
+          "subsection": null,
+          "score": 0.8108798861503601
+        },
+        {
+          "rank": 5,
+          "record_id": "02_home_loan_product_manual__record_006",
+          "document_id": "02_home_loan_product_manual",
+          "document_title": "Home Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Limits and Thresholds",
+          "score": 0.7993046045303345
+        }
+      ]
+    },
+    {
+      "id": "03_personal_loan_product_manual__qa_013",
+      "question": "When does Version 1.8 of the Personal Loan Product Manual become effective?",
+      "gold_record_id": "03_personal_loan_product_manual__record_012",
+      "gold_document_id": "03_personal_loan_product_manual",
+      "gold_section": "Product Terms",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "03_personal_loan_product_manual__record_012",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Effective Date",
+          "score": 0.8695359826087952
+        },
+        {
+          "rank": 2,
+          "record_id": "02_home_loan_product_manual__record_013",
+          "document_id": "02_home_loan_product_manual",
+          "document_title": "Home Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Effective Date",
+          "score": 0.8141713738441467
+        },
+        {
+          "rank": 3,
+          "record_id": "07_interest_rate_fee_policy__record_013",
+          "document_id": "07_interest_rate_fee_policy",
+          "document_title": "Interest Rate and Fee Policy",
+          "section": "Related Policies",
+          "subsection": null,
+          "score": 0.7496368885040283
+        },
+        {
+          "rank": 4,
+          "record_id": "04_corporate_loan_policy__record_011",
+          "document_id": "04_corporate_loan_policy",
+          "document_title": "Corporate Loan Policy",
+          "section": "Corporate Lending Framework",
+          "subsection": "Effective Date",
+          "score": 0.7427314519882202
+        },
+        {
+          "rank": 5,
+          "record_id": "08_credit_risk_eligibility_policy__record_013",
+          "document_id": "08_credit_risk_eligibility_policy",
+          "document_title": "Credit Risk and Eligibility Policy",
+          "section": "Related Policies",
+          "subsection": null,
+          "score": 0.7415956258773804
+        }
+      ]
+    },
+    {
+      "id": "03_personal_loan_product_manual__qa_005",
+      "question": "What must applicants with existing unsecured debt exceeding AUR 1,000,000 provide?",
+      "gold_record_id": "03_personal_loan_product_manual__record_005",
+      "gold_document_id": "03_personal_loan_product_manual",
+      "gold_section": "Product Terms",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "03_personal_loan_product_manual__record_005",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Requirements",
+          "score": 0.7974907159805298
+        },
+        {
+          "rank": 2,
+          "record_id": "03_personal_loan_product_manual__record_011",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Review and Approval",
+          "score": 0.7518779039382935
+        },
+        {
+          "rank": 3,
+          "record_id": "03_personal_loan_product_manual__record_017",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Summary",
+          "subsection": null,
+          "score": 0.7513784170150757
+        },
+        {
+          "rank": 4,
+          "record_id": "02_home_loan_product_manual__record_005",
+          "document_id": "02_home_loan_product_manual",
+          "document_title": "Home Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Requirements",
+          "score": 0.7462676763534546
+        },
+        {
+          "rank": 5,
+          "record_id": "02_home_loan_product_manual__record_009",
+          "document_id": "02_home_loan_product_manual",
+          "document_title": "Home Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Exceptions",
+          "score": 0.7430733442306519
+        }
+      ]
+    },
+    {
+      "id": "03_personal_loan_product_manual__qa_010",
+      "question": "How are approved loan amounts disbursed under Aurelia Personal Credit Line?",
+      "gold_record_id": "03_personal_loan_product_manual__record_008",
+      "gold_document_id": "03_personal_loan_product_manual",
+      "gold_section": "Product Terms",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "03_personal_loan_product_manual__record_008",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Disbursement and Repayment",
+          "score": 0.8750129342079163
+        },
+        {
+          "rank": 2,
+          "record_id": "03_personal_loan_product_manual__record_017",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Summary",
+          "subsection": null,
+          "score": 0.8338505029678345
+        },
+        {
+          "rank": 3,
+          "record_id": "03_personal_loan_product_manual__record_010",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Processing Procedure",
+          "score": 0.8191271424293518
+        },
+        {
+          "rank": 4,
+          "record_id": "03_personal_loan_product_manual__record_007",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Limits and Thresholds",
+          "score": 0.7988389730453491
+        },
+        {
+          "rank": 5,
+          "record_id": "03_personal_loan_product_manual__record_001",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Purpose",
+          "subsection": null,
+          "score": 0.7939677834510803
+        }
+      ]
+    },
+    {
+      "id": "04_corporate_loan_policy__qa_006",
+      "question": "What is the maximum amount available under Aurelia Corporate Term Finance?",
+      "gold_record_id": "04_corporate_loan_policy__record_006",
+      "gold_document_id": "04_corporate_loan_policy",
+      "gold_section": "Corporate Lending Framework",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "04_corporate_loan_policy__record_006",
+          "document_id": "04_corporate_loan_policy",
+          "document_title": "Corporate Loan Policy",
+          "section": "Corporate Lending Framework",
+          "subsection": "Limits and Thresholds",
+          "score": 0.9097586870193481
+        },
+        {
+          "rank": 2,
+          "record_id": "04_corporate_loan_policy__record_015",
+          "document_id": "04_corporate_loan_policy",
+          "document_title": "Corporate Loan Policy",
+          "section": "Summary",
+          "subsection": null,
+          "score": 0.8471835255622864
+        },
+        {
+          "rank": 3,
+          "record_id": "03_personal_loan_product_manual__record_007",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Limits and Thresholds",
+          "score": 0.8287142515182495
+        },
+        {
+          "rank": 4,
+          "record_id": "02_home_loan_product_manual__record_006",
+          "document_id": "02_home_loan_product_manual",
+          "document_title": "Home Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Limits and Thresholds",
+          "score": 0.8284749388694763
+        },
+        {
+          "rank": 5,
+          "record_id": "04_corporate_loan_policy__record_004",
+          "document_id": "04_corporate_loan_policy",
+          "document_title": "Corporate Loan Policy",
+          "section": "Corporate Lending Framework",
+          "subsection": "Eligibility",
+          "score": 0.8123267292976379
+        }
+      ]
+    },
+    {
+      "id": "04_corporate_loan_policy__qa_002",
+      "question": "What is Hypothecation?",
+      "gold_record_id": "04_corporate_loan_policy__record_003",
+      "gold_document_id": "04_corporate_loan_policy",
+      "gold_section": "Definitions",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "04_corporate_loan_policy__record_003",
+          "document_id": "04_corporate_loan_policy",
+          "document_title": "Corporate Loan Policy",
+          "section": "Definitions",
+          "subsection": null,
+          "score": 0.547742486000061
+        },
+        {
+          "rank": 2,
+          "record_id": "06_kyc_aml_policy__record_003",
+          "document_id": "06_kyc_aml_policy",
+          "document_title": "KYC and AML Policy",
+          "section": "Definitions",
+          "subsection": null,
+          "score": 0.4800106883049011
+        },
+        {
+          "rank": 3,
+          "record_id": "01_retail_banking_policy__record_001",
+          "document_id": "01_retail_banking_policy",
+          "document_title": "Retail Banking Policy",
+          "section": "Purpose",
+          "subsection": null,
+          "score": 0.4743126928806305
+        },
+        {
+          "rank": 4,
+          "record_id": "10_digital_banking_transaction_policy__record_003",
+          "document_id": "10_digital_banking_transaction_policy",
+          "document_title": "Digital Banking and Transaction Policy",
+          "section": "Definitions",
+          "subsection": null,
+          "score": 0.47111278772354126
+        },
+        {
+          "rank": 5,
+          "record_id": "07_interest_rate_fee_policy__record_013",
+          "document_id": "07_interest_rate_fee_policy",
+          "document_title": "Interest Rate and Fee Policy",
+          "section": "Related Policies",
+          "subsection": null,
+          "score": 0.4672946333885193
+        }
+      ]
+    },
+    {
+      "id": "05_customer_onboarding_policy__qa_004",
+      "question": "Who is not eligible for re-onboarding without prior written clearance from the Compliance division?",
+      "gold_record_id": "05_customer_onboarding_policy__record_004",
+      "gold_document_id": "05_customer_onboarding_policy",
+      "gold_section": "Onboarding Framework",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "05_customer_onboarding_policy__record_004",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Onboarding Framework",
+          "subsection": "Eligibility",
+          "score": 0.7911996841430664
+        },
+        {
+          "rank": 2,
+          "record_id": "09_financial_compliance_regulation__record_011",
+          "document_id": "09_financial_compliance_regulation",
+          "document_title": "Financial Compliance Regulation",
+          "section": "Compliance Framework",
+          "subsection": "Review and Approval",
+          "score": 0.7465346455574036
+        },
+        {
+          "rank": 3,
+          "record_id": "05_customer_onboarding_policy__record_011",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Onboarding Framework",
+          "subsection": "Review and Approval",
+          "score": 0.7305863499641418
+        },
+        {
+          "rank": 4,
+          "record_id": "05_customer_onboarding_policy__record_010",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Onboarding Framework",
+          "subsection": "Rejected and Incomplete Applications",
+          "score": 0.7247174978256226
+        },
+        {
+          "rank": 5,
+          "record_id": "05_customer_onboarding_policy__record_009",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Onboarding Framework",
+          "subsection": "Roles and Responsibilities",
+          "score": 0.7242074012756348
+        }
+      ]
+    },
+    {
+      "id": "05_customer_onboarding_policy__qa_010",
+      "question": "Who is responsible for approving any exception case?",
+      "gold_record_id": "05_customer_onboarding_policy__record_009",
+      "gold_document_id": "05_customer_onboarding_policy",
+      "gold_section": "Onboarding Framework",
+      "recall_at_1": false,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "05_customer_onboarding_policy__record_011",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Onboarding Framework",
+          "subsection": "Review and Approval",
+          "score": 0.6702078580856323
+        },
+        {
+          "rank": 2,
+          "record_id": "05_customer_onboarding_policy__record_009",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Onboarding Framework",
+          "subsection": "Roles and Responsibilities",
+          "score": 0.6628156900405884
+        },
+        {
+          "rank": 3,
+          "record_id": "06_kyc_aml_policy__record_011",
+          "document_id": "06_kyc_aml_policy",
+          "document_title": "KYC and AML Policy",
+          "section": "KYC and AML Framework",
+          "subsection": "Review and Approval",
+          "score": 0.6459923982620239
+        },
+        {
+          "rank": 4,
+          "record_id": "05_customer_onboarding_policy__record_007",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Onboarding Framework",
+          "subsection": "Exceptions",
+          "score": 0.6423482894897461
+        },
+        {
+          "rank": 5,
+          "record_id": "09_financial_compliance_regulation__record_007",
+          "document_id": "09_financial_compliance_regulation",
+          "document_title": "Financial Compliance Regulation",
+          "section": "Compliance Framework",
+          "subsection": "Exceptions",
+          "score": 0.6367257833480835
+        }
+      ]
+    },
+    {
+      "id": "06_kyc_aml_policy__qa_014",
+      "question": "What month-on-month transaction volume increase triggers a manual review flag?",
+      "gold_record_id": "06_kyc_aml_policy__record_006",
+      "gold_document_id": "06_kyc_aml_policy",
+      "gold_section": "KYC and AML Framework",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "06_kyc_aml_policy__record_006",
+          "document_id": "06_kyc_aml_policy",
+          "document_title": "KYC and AML Policy",
+          "section": "KYC and AML Framework",
+          "subsection": "Limits and Thresholds",
+          "score": 0.7055524587631226
+        },
+        {
+          "rank": 2,
+          "record_id": "06_kyc_aml_policy__record_008",
+          "document_id": "06_kyc_aml_policy",
+          "document_title": "KYC and AML Policy",
+          "section": "KYC and AML Framework",
+          "subsection": "Processing Procedure",
+          "score": 0.7051165103912354
+        },
+        {
+          "rank": 3,
+          "record_id": "06_kyc_aml_policy__record_015",
+          "document_id": "06_kyc_aml_policy",
+          "document_title": "KYC and AML Policy",
+          "section": "Summary",
+          "subsection": null,
+          "score": 0.6965591907501221
+        },
+        {
+          "rank": 4,
+          "record_id": "07_interest_rate_fee_policy__record_008",
+          "document_id": "07_interest_rate_fee_policy",
+          "document_title": "Interest Rate and Fee Policy",
+          "section": "Pricing and Fee Framework",
+          "subsection": "Processing Procedure",
+          "score": 0.6943557858467102
+        },
+        {
+          "rank": 5,
+          "record_id": "01_retail_banking_policy__record_010",
+          "document_id": "01_retail_banking_policy",
+          "document_title": "Retail Banking Policy",
+          "section": "Retail Banking Framework",
+          "subsection": "Processing Procedure",
+          "score": 0.6899784207344055
+        }
+      ]
+    },
+    {
+      "id": "06_kyc_aml_policy__qa_011",
+      "question": "What happens when a customer fails to complete re-verification within 60 calendar days of the due date?",
+      "gold_record_id": "06_kyc_aml_policy__record_008",
+      "gold_document_id": "06_kyc_aml_policy",
+      "gold_section": "KYC and AML Framework",
+      "recall_at_1": false,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "05_customer_onboarding_policy__record_010",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Onboarding Framework",
+          "subsection": "Rejected and Incomplete Applications",
+          "score": 0.7316241264343262
+        },
+        {
+          "rank": 2,
+          "record_id": "06_kyc_aml_policy__record_005",
+          "document_id": "06_kyc_aml_policy",
+          "document_title": "KYC and AML Policy",
+          "section": "KYC and AML Framework",
+          "subsection": "Requirements",
+          "score": 0.7194207906723022
+        },
+        {
+          "rank": 3,
+          "record_id": "06_kyc_aml_policy__record_008",
+          "document_id": "06_kyc_aml_policy",
+          "document_title": "KYC and AML Policy",
+          "section": "KYC and AML Framework",
+          "subsection": "Processing Procedure",
+          "score": 0.7049392461776733
+        },
+        {
+          "rank": 4,
+          "record_id": "05_customer_onboarding_policy__record_007",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Onboarding Framework",
+          "subsection": "Exceptions",
+          "score": 0.7042627930641174
+        },
+        {
+          "rank": 5,
+          "record_id": "03_personal_loan_product_manual__record_014",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Delinquency Handling",
+          "subsection": null,
+          "score": 0.6997418403625488
+        }
+      ]
+    },
+    {
+      "id": "07_interest_rate_fee_policy__qa_008",
+      "question": "What interest rate do fixed deposits earn for a 5-year tenure?",
+      "gold_record_id": "07_interest_rate_fee_policy__record_006",
+      "gold_document_id": "07_interest_rate_fee_policy",
+      "gold_section": "Pricing and Fee Framework",
+      "recall_at_1": false,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "07_interest_rate_fee_policy__record_007",
+          "document_id": "07_interest_rate_fee_policy",
+          "document_title": "Interest Rate and Fee Policy",
+          "section": "Pricing and Fee Framework",
+          "subsection": "Exceptions",
+          "score": 0.7370466589927673
+        },
+        {
+          "rank": 2,
+          "record_id": "07_interest_rate_fee_policy__record_006",
+          "document_id": "07_interest_rate_fee_policy",
+          "document_title": "Interest Rate and Fee Policy",
+          "section": "Pricing and Fee Framework",
+          "subsection": "Limits and Thresholds",
+          "score": 0.7236099243164062
+        },
+        {
+          "rank": 3,
+          "record_id": "02_home_loan_product_manual__record_008",
+          "document_id": "02_home_loan_product_manual",
+          "document_title": "Home Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Prepayment and Part-Payment",
+          "score": 0.7193626165390015
+        },
+        {
+          "rank": 4,
+          "record_id": "02_home_loan_product_manual__record_009",
+          "document_id": "02_home_loan_product_manual",
+          "document_title": "Home Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Exceptions",
+          "score": 0.7060683965682983
+        },
+        {
+          "rank": 5,
+          "record_id": "03_personal_loan_product_manual__record_009",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Exceptions",
+          "score": 0.6956640481948853
+        }
+      ]
+    },
+    {
+      "id": "07_interest_rate_fee_policy__qa_003",
+      "question": "What is a Non-Maintenance Charge?",
+      "gold_record_id": "07_interest_rate_fee_policy__record_003",
+      "gold_document_id": "07_interest_rate_fee_policy",
+      "gold_section": "Definitions",
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": false,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "07_interest_rate_fee_policy__record_016",
+          "document_id": "07_interest_rate_fee_policy",
+          "document_title": "Interest Rate and Fee Policy",
+          "section": "Additional Notes",
+          "subsection": null,
+          "score": 0.6243662238121033
+        },
+        {
+          "rank": 2,
+          "record_id": "07_interest_rate_fee_policy__record_007",
+          "document_id": "07_interest_rate_fee_policy",
+          "document_title": "Interest Rate and Fee Policy",
+          "section": "Pricing and Fee Framework",
+          "subsection": "Exceptions",
+          "score": 0.6237686276435852
+        },
+        {
+          "rank": 3,
+          "record_id": "07_interest_rate_fee_policy__record_015",
+          "document_id": "07_interest_rate_fee_policy",
+          "document_title": "Interest Rate and Fee Policy",
+          "section": "Miscellaneous Fees",
+          "subsection": null,
+          "score": 0.6208505630493164
+        },
+        {
+          "rank": 4,
+          "record_id": "02_home_loan_product_manual__record_008",
+          "document_id": "02_home_loan_product_manual",
+          "document_title": "Home Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Prepayment and Part-Payment",
+          "score": 0.6061878204345703
+        },
+        {
+          "rank": 5,
+          "record_id": "07_interest_rate_fee_policy__record_006",
+          "document_id": "07_interest_rate_fee_policy",
+          "document_title": "Interest Rate and Fee Policy",
+          "section": "Pricing and Fee Framework",
+          "subsection": "Limits and Thresholds",
+          "score": 0.6019982099533081
+        }
+      ]
+    },
+    {
+      "id": "08_credit_risk_eligibility_policy__qa_004",
+      "question": "What is the maximum provisional Risk Grade for individuals with no prior credit history?",
+      "gold_record_id": "08_credit_risk_eligibility_policy__record_004",
+      "gold_document_id": "08_credit_risk_eligibility_policy",
+      "gold_section": "Credit Risk Framework",
+      "recall_at_1": false,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "02_home_loan_product_manual__record_009",
+          "document_id": "02_home_loan_product_manual",
+          "document_title": "Home Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Exceptions",
+          "score": 0.7842885255813599
+        },
+        {
+          "rank": 2,
+          "record_id": "08_credit_risk_eligibility_policy__record_004",
+          "document_id": "08_credit_risk_eligibility_policy",
+          "document_title": "Credit Risk and Eligibility Policy",
+          "section": "Credit Risk Framework",
+          "subsection": "Eligibility",
+          "score": 0.7839764952659607
+        },
+        {
+          "rank": 3,
+          "record_id": "08_credit_risk_eligibility_policy__record_012",
+          "document_id": "08_credit_risk_eligibility_policy",
+          "document_title": "Credit Risk and Eligibility Policy",
+          "section": "Credit Risk Framework",
+          "subsection": "Effective Date",
+          "score": 0.775784969329834
+        },
+        {
+          "rank": 4,
+          "record_id": "08_credit_risk_eligibility_policy__record_006",
+          "document_id": "08_credit_risk_eligibility_policy",
+          "document_title": "Credit Risk and Eligibility Policy",
+          "section": "Credit Risk Framework",
+          "subsection": "Limits and Thresholds",
+          "score": 0.7397971153259277
+        },
+        {
+          "rank": 5,
+          "record_id": "08_credit_risk_eligibility_policy__record_016",
+          "document_id": "08_credit_risk_eligibility_policy",
+          "document_title": "Credit Risk and Eligibility Policy",
+          "section": "Summary",
+          "subsection": null,
+          "score": 0.7221412062644958
+        }
+      ]
+    },
+    {
+      "id": "08_credit_risk_eligibility_policy__qa_002",
+      "question": "What is a Special Mention Account (SMA)?",
+      "gold_record_id": "08_credit_risk_eligibility_policy__record_003",
+      "gold_document_id": "08_credit_risk_eligibility_policy",
+      "gold_section": "Definitions",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "08_credit_risk_eligibility_policy__record_003",
+          "document_id": "08_credit_risk_eligibility_policy",
+          "document_title": "Credit Risk and Eligibility Policy",
+          "section": "Definitions",
+          "subsection": null,
+          "score": 0.6806496381759644
+        },
+        {
+          "rank": 2,
+          "record_id": "05_customer_onboarding_policy__record_003",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Definitions",
+          "subsection": null,
+          "score": 0.6550188064575195
+        },
+        {
+          "rank": 3,
+          "record_id": "03_personal_loan_product_manual__record_014",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Delinquency Handling",
+          "subsection": null,
+          "score": 0.6379709243774414
+        },
+        {
+          "rank": 4,
+          "record_id": "10_digital_banking_transaction_policy__record_003",
+          "document_id": "10_digital_banking_transaction_policy",
+          "document_title": "Digital Banking and Transaction Policy",
+          "section": "Definitions",
+          "subsection": null,
+          "score": 0.6272088289260864
+        },
+        {
+          "rank": 5,
+          "record_id": "01_retail_banking_policy__record_007",
+          "document_id": "01_retail_banking_policy",
+          "document_title": "Retail Banking Policy",
+          "section": "Retail Banking Framework",
+          "subsection": "Requirements",
+          "score": 0.6269173622131348
+        }
+      ]
+    },
+    {
+      "id": "08_credit_risk_eligibility_policy__qa_005",
+      "question": "What weighting is applied to repayment history in the Aurelia Credit Score calculation?",
+      "gold_record_id": "08_credit_risk_eligibility_policy__record_005",
+      "gold_document_id": "08_credit_risk_eligibility_policy",
+      "gold_section": "Credit Risk Framework",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "08_credit_risk_eligibility_policy__record_005",
+          "document_id": "08_credit_risk_eligibility_policy",
+          "document_title": "Credit Risk and Eligibility Policy",
+          "section": "Credit Risk Framework",
+          "subsection": "Requirements",
+          "score": 0.8986437320709229
+        },
+        {
+          "rank": 2,
+          "record_id": "08_credit_risk_eligibility_policy__record_008",
+          "document_id": "08_credit_risk_eligibility_policy",
+          "document_title": "Credit Risk and Eligibility Policy",
+          "section": "Credit Risk Framework",
+          "subsection": "Processing Procedure",
+          "score": 0.8574967384338379
+        },
+        {
+          "rank": 3,
+          "record_id": "08_credit_risk_eligibility_policy__record_004",
+          "document_id": "08_credit_risk_eligibility_policy",
+          "document_title": "Credit Risk and Eligibility Policy",
+          "section": "Credit Risk Framework",
+          "subsection": "Eligibility",
+          "score": 0.8038911819458008
+        },
+        {
+          "rank": 4,
+          "record_id": "03_personal_loan_product_manual__record_008",
+          "document_id": "03_personal_loan_product_manual",
+          "document_title": "Personal Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Disbursement and Repayment",
+          "score": 0.8038228750228882
+        },
+        {
+          "rank": 5,
+          "record_id": "08_credit_risk_eligibility_policy__record_016",
+          "document_id": "08_credit_risk_eligibility_policy",
+          "document_title": "Credit Risk and Eligibility Policy",
+          "section": "Summary",
+          "subsection": null,
+          "score": 0.7967661619186401
+        }
+      ]
+    },
+    {
+      "id": "09_financial_compliance_regulation__qa_009",
+      "question": "What is the minimum retention period for customer records following account closure?",
+      "gold_record_id": "09_financial_compliance_regulation__record_006",
+      "gold_document_id": "09_financial_compliance_regulation",
+      "gold_section": "Compliance Framework",
+      "recall_at_1": false,
+      "recall_at_3": false,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "10_digital_banking_transaction_policy__record_011",
+          "document_id": "10_digital_banking_transaction_policy",
+          "document_title": "Digital Banking and Transaction Policy",
+          "section": "Digital Banking Framework",
+          "subsection": "Documentation and Record-Keeping",
+          "score": 0.7938735485076904
+        },
+        {
+          "rank": 2,
+          "record_id": "05_customer_onboarding_policy__record_014",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Documentation and Record-Keeping",
+          "subsection": null,
+          "score": 0.7734423279762268
+        },
+        {
+          "rank": 3,
+          "record_id": "06_kyc_aml_policy__record_014",
+          "document_id": "06_kyc_aml_policy",
+          "document_title": "KYC and AML Policy",
+          "section": "Documentation and Record-Keeping",
+          "subsection": null,
+          "score": 0.7609137296676636
+        },
+        {
+          "rank": 4,
+          "record_id": "09_financial_compliance_regulation__record_006",
+          "document_id": "09_financial_compliance_regulation",
+          "document_title": "Financial Compliance Regulation",
+          "section": "Compliance Framework",
+          "subsection": "Limits and Thresholds",
+          "score": 0.7484359741210938
+        },
+        {
+          "rank": 5,
+          "record_id": "02_home_loan_product_manual__record_011",
+          "document_id": "02_home_loan_product_manual",
+          "document_title": "Home Loan Product Manual",
+          "section": "Product Terms",
+          "subsection": "Documentation and Record-Keeping",
+          "score": 0.7444146275520325
+        }
+      ]
+    },
+    {
+      "id": "09_financial_compliance_regulation__qa_012",
+      "question": "Who is accountable for the accuracy and timely submission of quarterly regulatory filings to AFRC?",
+      "gold_record_id": "09_financial_compliance_regulation__record_009",
+      "gold_document_id": "09_financial_compliance_regulation",
+      "gold_section": "Compliance Framework",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "09_financial_compliance_regulation__record_009",
+          "document_id": "09_financial_compliance_regulation",
+          "document_title": "Financial Compliance Regulation",
+          "section": "Compliance Framework",
+          "subsection": "Roles and Responsibilities",
+          "score": 0.7783429622650146
+        },
+        {
+          "rank": 2,
+          "record_id": "09_financial_compliance_regulation__record_008",
+          "document_id": "09_financial_compliance_regulation",
+          "document_title": "Financial Compliance Regulation",
+          "section": "Compliance Framework",
+          "subsection": "Processing Procedure",
+          "score": 0.7373331785202026
+        },
+        {
+          "rank": 3,
+          "record_id": "09_financial_compliance_regulation__record_006",
+          "document_id": "09_financial_compliance_regulation",
+          "document_title": "Financial Compliance Regulation",
+          "section": "Compliance Framework",
+          "subsection": "Limits and Thresholds",
+          "score": 0.7190731763839722
+        },
+        {
+          "rank": 4,
+          "record_id": "09_financial_compliance_regulation__record_010",
+          "document_id": "09_financial_compliance_regulation",
+          "document_title": "Financial Compliance Regulation",
+          "section": "Compliance Framework",
+          "subsection": "Annual Compliance Audit",
+          "score": 0.6912225484848022
+        },
+        {
+          "rank": 5,
+          "record_id": "09_financial_compliance_regulation__record_001",
+          "document_id": "09_financial_compliance_regulation",
+          "document_title": "Financial Compliance Regulation",
+          "section": "Purpose",
+          "subsection": null,
+          "score": 0.6775372624397278
+        }
+      ]
+    },
+    {
+      "id": "10_digital_banking_transaction_policy__qa_002",
+      "question": "What is Aurelia Instant Transfer (AIT)?",
+      "gold_record_id": "10_digital_banking_transaction_policy__record_003",
+      "gold_document_id": "10_digital_banking_transaction_policy",
+      "gold_section": "Definitions",
+      "recall_at_1": true,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "10_digital_banking_transaction_policy__record_003",
+          "document_id": "10_digital_banking_transaction_policy",
+          "document_title": "Digital Banking and Transaction Policy",
+          "section": "Definitions",
+          "subsection": null,
+          "score": 0.840874195098877
+        },
+        {
+          "rank": 2,
+          "record_id": "10_digital_banking_transaction_policy__record_007",
+          "document_id": "10_digital_banking_transaction_policy",
+          "document_title": "Digital Banking and Transaction Policy",
+          "section": "Digital Banking Framework",
+          "subsection": "Exceptions",
+          "score": 0.795985221862793
+        },
+        {
+          "rank": 3,
+          "record_id": "10_digital_banking_transaction_policy__record_006",
+          "document_id": "10_digital_banking_transaction_policy",
+          "document_title": "Digital Banking and Transaction Policy",
+          "section": "Digital Banking Framework",
+          "subsection": "Limits and Thresholds",
+          "score": 0.7913640737533569
+        },
+        {
+          "rank": 4,
+          "record_id": "10_digital_banking_transaction_policy__record_016",
+          "document_id": "10_digital_banking_transaction_policy",
+          "document_title": "Digital Banking and Transaction Policy",
+          "section": "Summary",
+          "subsection": null,
+          "score": 0.7703731060028076
+        },
+        {
+          "rank": 5,
+          "record_id": "10_digital_banking_transaction_policy__record_008",
+          "document_id": "10_digital_banking_transaction_policy",
+          "document_title": "Digital Banking and Transaction Policy",
+          "section": "Digital Banking Framework",
+          "subsection": "Processing Procedure",
+          "score": 0.7666469812393188
+        }
+      ]
+    },
+    {
+      "id": "10_digital_banking_transaction_policy__qa_014",
+      "question": "Within how many business days does the Fraud Operations team aim to resolve straightforward disputed transaction cases?",
+      "gold_record_id": "10_digital_banking_transaction_policy__record_008",
+      "gold_document_id": "10_digital_banking_transaction_policy",
+      "gold_section": "Digital Banking Framework",
+      "recall_at_1": false,
+      "recall_at_3": true,
+      "recall_at_5": true,
+      "top_5": [
+        {
+          "rank": 1,
+          "record_id": "06_kyc_aml_policy__record_008",
+          "document_id": "06_kyc_aml_policy",
+          "document_title": "KYC and AML Policy",
+          "section": "KYC and AML Framework",
+          "subsection": "Processing Procedure",
+          "score": 0.7193925380706787
+        },
+        {
+          "rank": 2,
+          "record_id": "10_digital_banking_transaction_policy__record_008",
+          "document_id": "10_digital_banking_transaction_policy",
+          "document_title": "Digital Banking and Transaction Policy",
+          "section": "Digital Banking Framework",
+          "subsection": "Processing Procedure",
+          "score": 0.7172313928604126
+        },
+        {
+          "rank": 3,
+          "record_id": "05_customer_onboarding_policy__record_006",
+          "document_id": "05_customer_onboarding_policy",
+          "document_title": "Customer Onboarding Policy",
+          "section": "Onboarding Framework",
+          "subsection": "Limits and Thresholds",
+          "score": 0.711611270904541
+        },
+        {
+          "rank": 4,
+          "record_id": "06_kyc_aml_policy__record_006",
+          "document_id": "06_kyc_aml_policy",
+          "document_title": "KYC and AML Policy",
+          "section": "KYC and AML Framework",
+          "subsection": "Limits and Thresholds",
+          "score": 0.708670437335968
+        },
+        {
+          "rank": 5,
+          "record_id": "10_digital_banking_transaction_policy__record_009",
+          "document_id": "10_digital_banking_transaction_policy",
+          "document_title": "Digital Banking and Transaction Policy",
+          "section": "Digital Banking Framework",
+          "subsection": "Roles and Responsibilities",
+          "score": 0.7032918930053711
+        }
+      ]
+    }
+  ]
+}
