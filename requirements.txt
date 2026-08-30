@@ -4,3 +4,5 @@ datasets
 evaluate
 accelerate
 numpy
+
+sentence-transformers
