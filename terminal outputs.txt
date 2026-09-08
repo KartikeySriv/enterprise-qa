@@ -1,0 +1,548 @@
+(.venv) PS D:\CODING\CODE\enterprise--qa> python qa/train.py                                                
+======================================================================
+PHASE 5B-4 - TINYROBERTA FINE-TUNING
+======================================================================
+Model: deepset/tinyroberta-squad2
+
+Loading tokenizer...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading tokenized datasets...
+Train examples      : 105
+Validation examples : 23
+
+Loading pretrained QA model...
+Loading weights: 100%|█| 103/103 [00:00<00:00, 1548.2
+
+Total parameters     : 81,529,346
+Trainable parameters : 81,529,346
+Training device      : cpu
+
+======================================================================
+STARTING TRAINING
+======================================================================
+  0%|                         | 0/42 [00:00<?, ?it/s]D:\CODING\CODE\enterprise--qa\.venv\Lib\site-packages\torch\utils\data\dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': '0.6851', 'grad_norm': '30.22', 'learning_rate': '1.381e-05', 'epoch': '1'}
+{'eval_loss': '0.3079', 'eval_runtime': '11.96', 'eval_samples_per_second': '1.924', 'eval_steps_per_second': '0.251', 'epoch': '1'}
+Writing model shards: 100%|█| 1/1 [00:01<00:00,  1.81
+D:\CODING\CODE\enterprise--qa\.venv\Lib\site-packages\torch\utils\data\dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': '0.1933', 'grad_norm': '0.1775', 'learning_rate': '7.143e-06', 'epoch': '2'}
+{'eval_loss': '0.2483', 'eval_runtime': '11.92', 'eval_samples_per_second': '1.929', 'eval_steps_per_second': '0.252', 'epoch': '2'}
+Writing model shards: 100%|█| 1/1 [00:01<00:00,  1.12
+D:\CODING\CODE\enterprise--qa\.venv\Lib\site-packages\torch\utils\data\dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': '0.06925', 'grad_norm': '3.914', 'learning_rate': '4.762e-07', 'epoch': '3'}
+{'eval_loss': '0.2723', 'eval_runtime': '11.63', 'eval_samples_per_second': '1.978', 'eval_steps_per_second': '0.258', 'epoch': '3'}
+Writing model shards: 100%|█| 1/1 [00:01<00:00,  1.62
+{'train_runtime': '761.7', 'train_samples_per_second': '0.414', 'train_steps_per_second': '0.055', 'train_loss': '0.3159', 'epoch': '3'}
+100%|████████████████| 42/42 [12:50<00:00, 18.34s/it]
+
+======================================================================
+SAVING MODEL
+======================================================================
+Writing model shards: 100%|█| 1/1 [00:01<00:00,  1.26
+***** train metrics *****
+  epoch                    =        3.0
+  total_flos               =    38329GF
+  train_loss               =     0.3159
+  train_runtime            = 0:12:41.67
+  train_samples_per_second =      0.414
+  train_steps_per_second   =      0.055
+
+======================================================================
+FINAL VALIDATION
+======================================================================
+D:\CODING\CODE\enterprise--qa\.venv\Lib\site-packages\torch\utils\data\dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+100%|██████████████████| 3/3 [00:07<00:00,  2.49s/it]
+***** validation metrics *****
+  epoch                   =        3.0
+  eval_loss               =     0.2483
+  eval_runtime            = 0:00:10.98
+  eval_samples_per_second =      2.094
+  eval_steps_per_second   =      0.273
+
+======================================================================
+FINE-TUNING COMPLETE
+======================================================================
+Model saved to:
+D:\CODING\CODE\enterprise--qa\models\tinyroberta-aurelia-qa
+
+Training metrics:
+  train_runtime: 761.6753
+  train_samples_per_second: 0.414
+  train_steps_per_second: 0.055
+  total_flos: 41155726510080.0
+  train_loss: 0.31586931574912297
+  epoch: 3.0
+
+Validation metrics:
+  eval_loss: 0.24827909469604492
+  eval_runtime: 10.986
+  eval_samples_per_second: 2.094
+  eval_steps_per_second: 0.273
+  epoch: 3.0
+(.venv) PS D:\CODING\CODE\enterprise--qa>           
+
+
+                                          python qa/evaluate_qa.py
+======================================================================
+PHASE 6A-6C - QA MODEL COMPARISON
+======================================================================
+Frozen test examples: 22
+
+======================================================================
+EVALUATING: deepset/tinyroberta-squad2
+======================================================================
+Loading tokenizer: deepset/tinyroberta-squad2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading model: deepset/tinyroberta-squad2
+Loading weights: 100%|█| 103/103 [00:00<00:00, 1179.9
+Device: cpu
+[01/22] EM=0 F1=0.560 Q=What is a Small Business Customer?
+[02/22] EM=0 F1=0.750 Q=How long does the account remain provisionally opened with restricted transaction limits?
+[03/22] EM=1 F1=1.000 Q=When did Version 2.3 of the Home Loan Product Manual take effect?
+[04/22] EM=0 F1=0.480 Q=What is the Aurelia Base Lending Rate?
+[05/22] EM=1 F1=1.000 Q=When does Version 1.8 of the Personal Loan Product Manual become effective?
+[06/22] EM=1 F1=1.000 Q=What must applicants with existing unsecured debt exceeding AUR 1,000,000 provide?
+[07/22] EM=1 F1=1.000 Q=How are approved loan amounts disbursed under Aurelia Personal Credit Line?
+[08/22] EM=1 F1=1.000 Q=What is the maximum amount available under Aurelia Corporate Term Finance?
+[09/22] EM=0 F1=0.323 Q=What is Hypothecation?
+[10/22] EM=0 F1=0.750 Q=Who is not eligible for re-onboarding without prior written clearance from the Compliance division?
+[11/22] EM=1 F1=1.000 Q=Who is responsible for approving any exception case?
+[12/22] EM=0 F1=0.000 Q=What month-on-month transaction volume increase triggers a manual review flag?
+[13/22] EM=0 F1=0.500 Q=What happens when a customer fails to complete re-verification within 60 calendar days of the due date?
+[14/22] EM=1 F1=1.000 Q=What interest rate do fixed deposits earn for a 5-year tenure?
+[15/22] EM=0 F1=0.950 Q=What is a Non-Maintenance Charge?
+[16/22] EM=1 F1=1.000 Q=What is the maximum provisional Risk Grade for individuals with no prior credit history?
+[17/22] EM=0 F1=0.947 Q=What is a Special Mention Account (SMA)?
+[18/22] EM=1 F1=1.000 Q=What weighting is applied to repayment history in the Aurelia Credit Score calculation?
+[19/22] EM=1 F1=1.000 Q=What is the minimum retention period for customer records following account closure?
+[20/22] EM=1 F1=1.000 Q=Who is accountable for the accuracy and timely submission of quarterly regulatory filings to AFRC?
+[21/22] EM=0 F1=0.600 Q=What is Aurelia Instant Transfer (AIT)?
+[22/22] EM=0 F1=0.500 Q=Within how many business days does the Fraud Operations team aim to resolve straightforward disputed transaction cases?
+
+======================================================================
+EVALUATING: D:\CODING\CODE\enterprise--qa\models\tinyroberta-aurelia-qa
+======================================================================
+Loading tokenizer: D:\CODING\CODE\enterprise--qa\models\tinyroberta-aurelia-qa
+Loading model: D:\CODING\CODE\enterprise--qa\models\tinyroberta-aurelia-qa
+Loading weights: 100%|█| 103/103 [00:00<00:00, 342.57
+Device: cpu
+[01/22] EM=1 F1=1.000 Q=What is a Small Business Customer?
+[02/22] EM=1 F1=1.000 Q=How long does the account remain provisionally opened with restricted transaction limits?
+[03/22] EM=1 F1=1.000 Q=When did Version 2.3 of the Home Loan Product Manual take effect?
+[04/22] EM=0 F1=0.731 Q=What is the Aurelia Base Lending Rate?
+[05/22] EM=1 F1=1.000 Q=When does Version 1.8 of the Personal Loan Product Manual become effective?
+[06/22] EM=1 F1=1.000 Q=What must applicants with existing unsecured debt exceeding AUR 1,000,000 provide?
+[07/22] EM=1 F1=1.000 Q=How are approved loan amounts disbursed under Aurelia Personal Credit Line?
+[08/22] EM=1 F1=1.000 Q=What is the maximum amount available under Aurelia Corporate Term Finance?
+[09/22] EM=1 F1=1.000 Q=What is Hypothecation?
+[10/22] EM=0 F1=0.750 Q=Who is not eligible for re-onboarding without prior written clearance from the Compliance division?
+[11/22] EM=1 F1=1.000 Q=Who is responsible for approving any exception case?
+[12/22] EM=1 F1=1.000 Q=What month-on-month transaction volume increase triggers a manual review flag?
+[13/22] EM=0 F1=0.500 Q=What happens when a customer fails to complete re-verification within 60 calendar days of the due date?
+[14/22] EM=1 F1=1.000 Q=What interest rate do fixed deposits earn for a 5-year tenure?
+[15/22] EM=1 F1=1.000 Q=What is a Non-Maintenance Charge?
+[16/22] EM=1 F1=1.000 Q=What is the maximum provisional Risk Grade for individuals with no prior credit history?
+[17/22] EM=1 F1=1.000 Q=What is a Special Mention Account (SMA)?
+[18/22] EM=1 F1=1.000 Q=What weighting is applied to repayment history in the Aurelia Credit Score calculation?
+[19/22] EM=1 F1=1.000 Q=What is the minimum retention period for customer records following account closure?
+[20/22] EM=1 F1=1.000 Q=Who is accountable for the accuracy and timely submission of quarterly regulatory filings to AFRC?
+[21/22] EM=1 F1=1.000 Q=What is Aurelia Instant Transfer (AIT)?
+[22/22] EM=1 F1=1.000 Q=Within how many business days does the Fraud Operations team aim to resolve straightforward disputed transaction cases?
+
+======================================================================
+FINAL COMPARISON
+======================================================================
+Baseline Exact Match : 50.00%
+Fine-tuned Exact Match: 86.36%
+EM improvement       : 36.36 percentage points
+
+Baseline Token F1    : 78.91%
+Fine-tuned Token F1  : 95.37%
+F1 improvement       : 16.46 percentage points
+
+Detailed results saved to:
+D:\CODING\CODE\enterprise--qa\evaluation\qa_evaluation.json
+(.venv) PS D:\CODING\CODE\enterprise--qa>  
+
+
+
+terminal 2:
+
+
+
+
+.venv) PS D:\CODING\CODE\enterprise--qa> python retrieval/embed.py                                         
+======================================================================
+PHASE 3B - LOCAL DOCUMENT EMBEDDING
+======================================================================
+Input records: 154
+
+Loading model: BAAI/bge-small-en-v1.5
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+modules.json: 100%|█| 349/349 [00:00<00:00, 1.04MB/s]
+D:\CODING\CODE\enterprise--qa\.venv\Lib\site-packages\huggingface_hub\file_download.py:141: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\DELL\.cache\huggingface\hub\models--BAAI--bge-small-en-v1.5. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+config_sentence_transformers.json: 100%|█| 124/124 [0
+README.md: 100%|█| 94.8k/94.8k [00:00<00:00, 156MB/s]
+sentence_bert_config.json: 100%|█| 52.0/52.0 [00:00<0
+config.json: 100%|██| 743/743 [00:00<00:00, 2.83MB/s]
+model.safetensors: downloading bytes: █| 86.7MB, 4.59
+model.safetensors: reconstructing file: 100%|█|  133M
+Loading weights: 100%|█| 199/199 [00:00<00:00, 5287.7
+tokenizer_config.json: 100%|█| 366/366 [00:00<00:00, 
+vocab.txt: 100%|██| 232k/232k [00:00<00:00, 6.91MB/s]
+tokenizer.json: 100%|█| 711k/711k [00:00<00:00, 23.8M
+special_tokens_map.json: 100%|█| 125/125 [00:00<00:00
+config.json: 100%|███| 190/190 [00:00<00:00, 830kB/s]
+
+Generating embeddings for 154 records...
+Batches: 100%|███████| 10/10 [00:12<00:00,  1.27s/it]
+
+Embedding matrix shape: (154, 384)
+Embedding validation: PASSED
+
+======================================================================
+EMBEDDING GENERATION COMPLETE
+======================================================================
+Records              : 154
+Vector dimension     : 384
+Embedding matrix     : 154 x 384
+Normalized vectors   : Yes
+Embeddings file      : D:\CODING\CODE\enterprise--qa\data\processed\embeddings.npy
+Metadata file        : D:\CODING\CODE\enterprise--qa\data\processed\embedding_metadata.json
+Embedding file size  : 0.23 MB
+(.venv) PS D:\CODING\CODE\enterprise--qa> python retrieval/search.py
+================================================================================
+PHASE 3C - LOCAL SEMANTIC RETRIEVAL
+================================================================================
+Embedding matrix: (154, 384)
+Loading embedding model: BAAI/bge-small-en-v1.5
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|█| 199/199 [00:00<00:00, 1680.1
+
+Enter a query.
+Type 'exit' or 'quit' to stop.
+
+Query: What is the maximum Loan-to-Value Ratio for self-employed applicants?
+
+================================================================================
+SEMANTIC RETRIEVAL RESULTS
+================================================================================
+Query: What is the maximum Loan-to-Value Ratio for self-employed applicants?
+Results: 5
+
+--------------------------------------------------------------------------------
+Rank       : 1
+Similarity : 0.810185
+Record ID  : 02_home_loan_product_manual__record_006
+Document   : Home Loan Product Manual
+Section    : Product Terms
+Subsection : Limits and Thresholds
+Source     : 02_home_loan_product_manual.adoc
+
+Text:
+Aurelia Home Advantage loans range from a minimum of AUR 500,000 to a maximum of AUR 25,000,000. The maximum Loan-to-Value Ratio is 80% of assessed property value for salaried applicants and 75% for self-employed applicants. Maximum loan tenure is 30 years, subject to the applicant's age at maturity not exceeding the limits described in Eligibility. The maximum permissible Debt-to-Income Ratio, inclusive of the proposed home loan installment and all existing obligations, is 45%.
+
+Interest rates on the Floating Rate variant are priced at ABLR plus a spread determined by Risk Grade: Risk Grade A applicants receive a spread of 0.40%, Risk Grade B a spread of 0.85%, and Risk Grade C a spread of 1.85%, all as defined under the Credit Risk and Eligibility Policy and the Interest Rate and Fee Policy (AUR-IRF-007). The processing fee is 0.50% of the sanctioned loan amount, subject to a minimum of AUR 5,000 and a maximum of AUR 75,000, as detailed in the Interest Rate and Fee Policy.
+
+--------------------------------------------------------------------------------
+Rank       : 2
+Similarity : 0.777176
+Record ID  : 02_home_loan_product_manual__record_009
+Document   : Home Loan Product Manual
+Section    : Product Terms
+Subsection : Exceptions
+Source     : 02_home_loan_product_manual.adoc
+
+Text:
+Self-employed applicants with a Risk Grade A rating and a minimum of 5 years of continuous business operating history may be extended the loan tenure such that maturity age reaches 70 years, provided the loan is additionally secured by a fixed deposit lien of no less than 20% of the sanctioned amount, approved by the Regional Credit Committee. Applicants with an Aurelia Credit Score between 600 and 649, ordinarily Risk Grade D and therefore ineligible, may be considered on an exception basis if the LTV is capped at 60% and a co-applicant with a minimum Aurelia Credit Score of 750 is added to the application, subject to Central Credit Committee approval.
+
+--------------------------------------------------------------------------------
+Rank       : 3
+Similarity : 0.775325
+Record ID  : 02_home_loan_product_manual__record_005
+Document   : Home Loan Product Manual
+Section    : Product Terms
+Subsection : Requirements
+Source     : 02_home_loan_product_manual.adoc
+
+Text:
+Salaried applicants must provide the most recent 3 months of salary statements, the most recent 2 years of income tax filings, and an employment continuity letter. Self-employed applicants must provide 2 years of audited or self-certified financial statements and 2 years of income tax filings, consistent with the documentation standards described in the Customer Onboarding Policy (AUR-CO-005).
+
+All applicants must provide a registered sale agreement or construction agreement for the property being financed, and the property must undergo a valuation by an Aurelia Bank-empanelled valuer prior to sanction. Property title must be verified as free of encumbrance by the bank's legal team before disbursement.
+
+--------------------------------------------------------------------------------
+Rank       : 4
+Similarity : 0.773080
+Record ID  : 03_personal_loan_product_manual__record_005
+Document   : Personal Loan Product Manual
+Section    : Product Terms
+Subsection : Requirements
+Source     : 03_personal_loan_product_manual.adoc
+
+Text:
+Salaried applicants must submit the most recent 3 months of salary statements and a current employment verification letter. Self-employed applicants must submit the most recent 1 year of audited or self-certified financial statements and the most recent year of income tax filings. All applicants must complete the standard Customer Due Diligence process described in the Customer Onboarding Policy (AUR-CO-005) if not already an existing verified customer.
+
+Applicants with existing unsecured debt exceeding AUR 1,000,000 across all lenders, as reported through the applicant's credit bureau disclosure, must provide a written explanation of repayment capacity, which is reviewed manually by the credit analyst regardless of Aurelia Credit Score.
+
+The stated purpose of the loan must be disclosed at application, selected from a defined list including debt consolidation, medical expense, travel, home renovation, education, and general personal use. Loans disclosed for debt consolidation require the applicant to provide statements for the facilities being consolidated, and Aurelia Bank reserves the right to disburse the consolidation amount directly to the identified lenders rather than to the applicant, at the discretion of the underwriting officer, in order to confirm the stated purpose is fulfilled.
+
+--------------------------------------------------------------------------------
+Rank       : 5
+Similarity : 0.757479
+Record ID  : 03_personal_loan_product_manual__record_007
+Document   : Personal Loan Product Manual
+Section    : Product Terms
+Subsection : Limits and Thresholds
+Source     : 03_personal_loan_product_manual.adoc
+
+Text:
+Aurelia Personal Credit Line loans range from a minimum of AUR 50,000 to a maximum of AUR 2,000,000. Loan tenure ranges from 12 to 60 months. The maximum permissible Debt-to-Income Ratio, inclusive of the proposed installment, is 50%, five percentage points higher than the equivalent limit for Aurelia Home Advantage, reflecting the shorter average tenure of personal loans.
+
+Fixed interest rates range from 11.5% per annum for Risk Grade A applicants to 19.75% per annum for Risk Grade D applicants, as detailed in the Interest Rate and Fee Policy (AUR-IRF-007). The processing fee is 1.75% of the approved loan amount, subject to a minimum of AUR 1,000 and a maximum of AUR 25,000.
+
+Query: 3cortex
+
+================================================================================
+SEMANTIC RETRIEVAL RESULTS
+================================================================================
+Query: 3cortex
+Results: 5
+
+--------------------------------------------------------------------------------
+Rank       : 1
+Similarity : 0.546497
+Record ID  : 05_customer_onboarding_policy__record_007
+Document   : Customer Onboarding Policy
+Section    : Onboarding Framework
+Subsection : Exceptions
+Source     : 05_customer_onboarding_policy.adoc
+
+Text:
+Customers onboarding through the assisted digital channel due to a certified disability, as recognized under the Retail Banking Policy, may complete identity verification through a video-based verification call with a designated onboarding officer in place of in-person document presentation, provided the call is recorded and retained per the record-retention standards in the Financial Compliance Regulation. Small Business Customers unable to provide a formal business registration certificate because their jurisdiction of operation does not issue one may be onboarded on the basis of a notarized declaration of business activity, subject to Branch Manager approval and a reduced initial transaction limit of AUR 25,000 per day for the first 30 calendar days.
+
+--------------------------------------------------------------------------------
+Rank       : 2
+Similarity : 0.535486
+Record ID  : 05_customer_onboarding_policy__record_006
+Document   : Customer Onboarding Policy
+Section    : Onboarding Framework
+Subsection : Limits and Thresholds
+Source     : 05_customer_onboarding_policy.adoc
+
+Text:
+Standard retail onboarding through the branch channel carries a target Turnaround Time of 2 business days from complete document submission to account activation. This 2 business day target is measured from the point of complete document submission, not from initial applicant contact, and excludes any period spent by the applicant gathering outstanding documents under the incomplete-application process described below. Corporate onboarding carries a target Turnaround Time of 5 business days, reflecting the additional beneficial ownership and Enhanced Due Diligence verification required. Digital self-service onboarding for Standard Retail Customers carries a target Turnaround Time of 1 business day where identity can be verified electronically against the national identity database.
+
+Newly onboarded accounts are subject to a provisional transaction limit of AUR 50,000 per day for the first 5 business days following account opening, as referenced in the Retail Banking Policy, pending final compliance sign-off.
+
+--------------------------------------------------------------------------------
+Rank       : 3
+Similarity : 0.533090
+Record ID  : 09_financial_compliance_regulation__record_001
+Document   : Financial Compliance Regulation
+Section    : Purpose
+Subsection : None
+Source     : 09_financial_compliance_regulation.adoc
+
+Text:
+This document sets out Aurelia Bank's internal implementation of fictional regulatory obligations owed to the Aurelia Financial Regulatory Commission (AFRC) and the Aurelia National Deposit Insurance Corporation (ANDIC), the two fictional supervisory bodies referenced throughout this synthetic corpus. It defines capital and liquidity requirements, regulatory reporting obligations, record retention standards, and restricted business sectors, and provides the compliance basis referenced by the Corporate Loan Policy (AUR-CL-004) and the KYC and AML Policy (AUR-KYC-006). All figures, bodies, and requirements described in this document are fictional and constructed solely for research purposes; they do not describe any real regulator or regulation. Every other policy in this corpus that imposes a retention period, a reporting deadline, or a sector exclusion ultimately traces that requirement back to this document.
+
+--------------------------------------------------------------------------------
+Rank       : 4
+Similarity : 0.531731
+Record ID  : 05_customer_onboarding_policy__record_010
+Document   : Customer Onboarding Policy
+Section    : Onboarding Framework
+Subsection : Rejected and Incomplete Applications
+Source     : 05_customer_onboarding_policy.adoc
+
+Text:
+An onboarding application is marked incomplete, rather than rejected, if required documents are missing, and the applicant is given 15 calendar days to submit the outstanding items before the application is automatically closed. An application is marked rejected where submitted documents fail authenticity verification, where the applicant appears on the Financial Intelligence Unit-Aurelia watchlist, or where the applicant has been previously offboarded for a confirmed compliance violation without subsequent Compliance clearance. Rejected applications are retained in the onboarding system for 2 years for audit purposes, and the applicant is not automatically notified of the specific reason for rejection where doing so would conflict with the confidentiality provisions of the KYC and AML Policy.
+
+--------------------------------------------------------------------------------
+Rank       : 5
+Similarity : 0.530565
+Record ID  : 10_digital_banking_transaction_policy__record_001
+Document   : Digital Banking and Transaction Policy
+Section    : Purpose
+Subsection : None
+Source     : 10_digital_banking_transaction_policy.adoc
+
+Text:
+This policy governs Aurelia Bank's digital banking channels, including the AureliaPay mobile application and the associated Aurelia Instant Transfer and Aurelia QuickPay transaction rails. It defines transaction limits, authentication requirements, and fraud liability standards, and describes the digital self-service onboarding channel referenced in the Customer Onboarding Policy (AUR-CO-005). As digital channels now account for the majority of Aurelia Bank's day-to-day retail transaction volume, the limits and controls in this policy carry direct fraud-loss and liquidity implications, and are reviewed jointly with the Credit Risk division and Treasury on an annual basis.
+
+Query: What documents must a salaried applicant provide for a home loan?
+
+================================================================================
+SEMANTIC RETRIEVAL RESULTS
+================================================================================
+Query: What documents must a salaried applicant provide for a home loan?
+Results: 5
+
+--------------------------------------------------------------------------------
+Rank       : 1
+Similarity : 0.756887
+Record ID  : 02_home_loan_product_manual__record_005
+Document   : Home Loan Product Manual
+Section    : Product Terms
+Subsection : Requirements
+Source     : 02_home_loan_product_manual.adoc
+
+Text:
+Salaried applicants must provide the most recent 3 months of salary statements, the most recent 2 years of income tax filings, and an employment continuity letter. Self-employed applicants must provide 2 years of audited or self-certified financial statements and 2 years of income tax filings, consistent with the documentation standards described in the Customer Onboarding Policy (AUR-CO-005).
+
+All applicants must provide a registered sale agreement or construction agreement for the property being financed, and the property must undergo a valuation by an Aurelia Bank-empanelled valuer prior to sanction. Property title must be verified as free of encumbrance by the bank's legal team before disbursement.
+
+--------------------------------------------------------------------------------
+Rank       : 2
+Similarity : 0.741287
+Record ID  : 03_personal_loan_product_manual__record_005
+Document   : Personal Loan Product Manual
+Section    : Product Terms
+Subsection : Requirements
+Source     : 03_personal_loan_product_manual.adoc
+
+Text:
+Salaried applicants must submit the most recent 3 months of salary statements and a current employment verification letter. Self-employed applicants must submit the most recent 1 year of audited or self-certified financial statements and the most recent year of income tax filings. All applicants must complete the standard Customer Due Diligence process described in the Customer Onboarding Policy (AUR-CO-005) if not already an existing verified customer.
+
+Applicants with existing unsecured debt exceeding AUR 1,000,000 across all lenders, as reported through the applicant's credit bureau disclosure, must provide a written explanation of repayment capacity, which is reviewed manually by the credit analyst regardless of Aurelia Credit Score.
+
+The stated purpose of the loan must be disclosed at application, selected from a defined list including debt consolidation, medical expense, travel, home renovation, education, and general personal use. Loans disclosed for debt consolidation require the applicant to provide statements for the facilities being consolidated, and Aurelia Bank reserves the right to disburse the consolidation amount directly to the identified lenders rather than to the applicant, at the discretion of the underwriting officer, in order to confirm the stated purpose is fulfilled.
+
+--------------------------------------------------------------------------------
+Rank       : 3
+Similarity : 0.736849
+Record ID  : 05_customer_onboarding_policy__record_005
+Document   : Customer Onboarding Policy
+Section    : Onboarding Framework
+Subsection : Requirements
+Source     : 05_customer_onboarding_policy.adoc
+
+Text:
+Individual retail applicants must submit one valid Proof of Identity, one valid Proof of Address, a recent passport-sized photograph, and their Aurelia Tax Identification Number. Acceptable forms of Proof of Identity include a national identity card, a passport, or a driving license bearing a photograph; a bank-issued document is never accepted as a standalone Proof of Identity, as it does not constitute independent third-party verification. A Proof of Address in the form of a utility bill must be dated within the preceding 3 months; a government-issued address document is accepted if issued within the preceding 2 years. Where a submitted POI and POA do not match in name due to a legal name change, a supporting name-change certificate is required.
+
+Small Business Customers must additionally provide a business registration certificate, proprietor or partner identification for all named principals, and a business address proof. Corporate Customers must provide the documentation set out in the Corporate Loan Policy (AUR-CL-004), including a board resolution, certificate of incorporation, and beneficial ownership declaration, as required under the KYC and AML Policy.
+
+Non-Resident Customers must provide an overseas address proof in addition to the standard POI and POA, and are subject to the Enhanced Due Diligence procedure described in the KYC and AML Policy prior to account activation.
+
+--------------------------------------------------------------------------------
+Rank       : 4
+Similarity : 0.714448
+Record ID  : 07_interest_rate_fee_policy__record_013
+Document   : Interest Rate and Fee Policy
+Section    : Related Policies
+Subsection : None
+Source     : 07_interest_rate_fee_policy.adoc
+
+Text:
+* Home Loan Product Manual (AUR-HL-002)
+* Personal Loan Product Manual (AUR-PL-003)
+* Corporate Loan Policy (AUR-CL-004)
+* Credit Risk and Eligibility Policy (AUR-CR-008)
+* Retail Banking Policy (AUR-RB-001)
+
+--------------------------------------------------------------------------------
+Rank       : 5
+Similarity : 0.704205
+Record ID  : 08_credit_risk_eligibility_policy__record_013
+Document   : Credit Risk and Eligibility Policy
+Section    : Related Policies
+Subsection : None
+Source     : 08_credit_risk_eligibility_policy.adoc
+
+Text:
+* Home Loan Product Manual (AUR-HL-002)
+* Personal Loan Product Manual (AUR-PL-003)
+* Corporate Loan Policy (AUR-CL-004)
+* Interest Rate and Fee Policy (AUR-IRF-007)
+* Financial Compliance Regulation (AUR-FC-009)
+
+Query: 
+Please enter a non-empty query.
+
+Query: exit
+Exiting.         
+
+
+
+terminal 3:
+
+
+
+(.venv) PS D:\CODING\CODE\enterprise--qa> python retrieval/evaluate_retrieval.py
+======================================================================
+PHASE 3D - AUTOMATED RETRIEVAL EVALUATION
+======================================================================
+Test questions : 22
+Document records: 154
+Embedding matrix: (154, 384)
+
+Identifying gold source records...
+  01_retail_banking_policy__qa_002 -> 01_retail_banking_policy__record_003
+  01_retail_banking_policy__qa_011 -> 01_retail_banking_policy__record_010
+  02_home_loan_product_manual__qa_015 -> 02_home_loan_product_manual__record_013
+  02_home_loan_product_manual__qa_001 -> 02_home_loan_product_manual__record_003
+  03_personal_loan_product_manual__qa_013 -> 03_personal_loan_product_manual__record_012
+  03_personal_loan_product_manual__qa_005 -> 03_personal_loan_product_manual__record_005
+  03_personal_loan_product_manual__qa_010 -> 03_personal_loan_product_manual__record_008
+  04_corporate_loan_policy__qa_006 -> 04_corporate_loan_policy__record_006
+  04_corporate_loan_policy__qa_002 -> 04_corporate_loan_policy__record_003
+  05_customer_onboarding_policy__qa_004 -> 05_customer_onboarding_policy__record_004
+  05_customer_onboarding_policy__qa_010 -> 05_customer_onboarding_policy__record_009
+  06_kyc_aml_policy__qa_014 -> 06_kyc_aml_policy__record_006
+  06_kyc_aml_policy__qa_011 -> 06_kyc_aml_policy__record_008
+  07_interest_rate_fee_policy__qa_008 -> 07_interest_rate_fee_policy__record_006
+  07_interest_rate_fee_policy__qa_003 -> 07_interest_rate_fee_policy__record_003
+  08_credit_risk_eligibility_policy__qa_004 -> 08_credit_risk_eligibility_policy__record_004
+  08_credit_risk_eligibility_policy__qa_002 -> 08_credit_risk_eligibility_policy__record_003
+  08_credit_risk_eligibility_policy__qa_005 -> 08_credit_risk_eligibility_policy__record_005
+  09_financial_compliance_regulation__qa_009 -> 09_financial_compliance_regulation__record_006
+  09_financial_compliance_regulation__qa_012 -> 09_financial_compliance_regulation__record_009
+  10_digital_banking_transaction_policy__qa_002 -> 10_digital_banking_transaction_policy__record_003
+  10_digital_banking_transaction_policy__qa_014 -> 10_digital_banking_transaction_policy__record_008
+
+Loading model: BAAI/bge-small-en-v1.5
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|█| 199/199 [00:00<00:00, 2692.4
+
+Embedding test questions...
+Batches: 100%|█████████| 2/2 [00:01<00:00,  1.21it/s]
+[01/22] R@1=1 R@3=1 R@5=1 Gold=01_retail_banking_policy__record_003
+[02/22] R@1=1 R@3=1 R@5=1 Gold=01_retail_banking_policy__record_010
+[03/22] R@1=1 R@3=1 R@5=1 Gold=02_home_loan_product_manual__record_013
+[04/22] R@1=0 R@3=0 R@5=0 Gold=02_home_loan_product_manual__record_003
+[05/22] R@1=1 R@3=1 R@5=1 Gold=03_personal_loan_product_manual__record_012
+[06/22] R@1=1 R@3=1 R@5=1 Gold=03_personal_loan_product_manual__record_005
+[07/22] R@1=1 R@3=1 R@5=1 Gold=03_personal_loan_product_manual__record_008
+[08/22] R@1=1 R@3=1 R@5=1 Gold=04_corporate_loan_policy__record_006
+[09/22] R@1=1 R@3=1 R@5=1 Gold=04_corporate_loan_policy__record_003
+[10/22] R@1=1 R@3=1 R@5=1 Gold=05_customer_onboarding_policy__record_004
+[11/22] R@1=0 R@3=1 R@5=1 Gold=05_customer_onboarding_policy__record_009
+[12/22] R@1=1 R@3=1 R@5=1 Gold=06_kyc_aml_policy__record_006
+[13/22] R@1=0 R@3=1 R@5=1 Gold=06_kyc_aml_policy__record_008
+[14/22] R@1=0 R@3=1 R@5=1 Gold=07_interest_rate_fee_policy__record_006
+[15/22] R@1=0 R@3=0 R@5=0 Gold=07_interest_rate_fee_policy__record_003
+[16/22] R@1=0 R@3=1 R@5=1 Gold=08_credit_risk_eligibility_policy__record_004
+[17/22] R@1=1 R@3=1 R@5=1 Gold=08_credit_risk_eligibility_policy__record_003
+[18/22] R@1=1 R@3=1 R@5=1 Gold=08_credit_risk_eligibility_policy__record_005
+[19/22] R@1=0 R@3=0 R@5=1 Gold=09_financial_compliance_regulation__record_006
+[20/22] R@1=1 R@3=1 R@5=1 Gold=09_financial_compliance_regulation__record_009
+[21/22] R@1=1 R@3=1 R@5=1 Gold=10_digital_banking_transaction_policy__record_003
+[22/22] R@1=0 R@3=1 R@5=1 Gold=10_digital_banking_transaction_policy__record_008
+
+======================================================================
+RETRIEVAL RESULTS
+======================================================================
+Recall@1 : 63.64% (14/22)
+Recall@3 : 86.36% (19/22)
+Recall@5 : 90.91% (20/22)
+
+Detailed results:
+D:\CODING\CODE\enterprise--qa\evaluation\retrieval_evaluation.json
+(.venv) PS D:\CODING\CODE\enterprise--qa> 
