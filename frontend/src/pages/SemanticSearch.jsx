@@ -14,6 +14,7 @@ import {
   AccordionSummary,
   AccordionDetails,
   LinearProgress,
+  Grid,
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import SearchIcon from '@mui/icons-material/Search';
@@ -31,7 +32,13 @@ function SemanticSearch() {
     try {
       setLoading(true);
       setError(null);
+      
+      // Add a message about model loading
+      setError('Loading embedding model (this may take 30-60 seconds on first search)...');
+      
       const response = await apiService.searchRetrieval(query, 5);
+      
+      setError(null); // Clear the loading message
       
       if (response.data.error) {
         setError(response.data.error);
@@ -39,7 +46,11 @@ function SemanticSearch() {
         setResults(response.data);
       }
     } catch (err) {
-      setError(`Search failed: ${err.message}`);
+      if (err.code === 'ECONNABORTED' || err.message.includes('timeout')) {
+        setError('Search timed out. The embedding model may still be loading. Please try again in a moment.');
+      } else {
+        setError(`Search failed: ${err.message}`);
+      }
     } finally {
       setLoading(false);
     }
@@ -90,7 +101,7 @@ function SemanticSearch() {
       )}
 
       {error && (
-        <Alert severity="error" sx={{ mb: 4 }}>
+        <Alert severity={error.includes('Loading') ? 'info' : 'error'} sx={{ mb: 4 }}>
           {error}
         </Alert>
       )}

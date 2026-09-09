@@ -28,6 +28,36 @@ def get_retrieval_functions():
         'semantic_search': semantic_search,
     }
 
+# Singleton pattern for model and data to avoid reloading
+_model_cache = None
+_embeddings_cache = None
+_metadata_cache = None
+_sections_cache = None
+
+def get_cached_retrieval_data():
+    """Load and cache retrieval data to avoid repeated loading."""
+    global _model_cache, _embeddings_cache, _metadata_cache, _sections_cache
+    
+    if _model_cache is None:
+        retrieval_funcs = get_retrieval_functions()
+        
+        embeddings_path = PROJECT_ROOT / "data" / "processed" / "embeddings.npy"
+        metadata_path = PROJECT_ROOT / "data" / "processed" / "embedding_metadata.json"
+        sections_path = PROJECT_ROOT / "data" / "processed" / "sections.jsonl"
+        
+        _embeddings_cache = retrieval_funcs['load_embeddings'](embeddings_path)
+        _metadata_cache = retrieval_funcs['load_json'](metadata_path)
+        _sections_cache = retrieval_funcs['load_sections'](sections_path)
+        _model_cache = retrieval_funcs['load_embedding_model']()
+    
+    return {
+        'model': _model_cache,
+        'embeddings': _embeddings_cache,
+        'metadata': _metadata_cache,
+        'sections': _sections_cache,
+        'functions': get_retrieval_functions()
+    }
+
 # ============================================================
 # CONFIGURATION
 # ============================================================
@@ -223,26 +253,16 @@ async def get_training_history():
 async def search_retrieval(request: SearchRequest):
     """Semantic search using BGE embeddings, reusing retrieval/search.py functions."""
     try:
-        # Lazy load retrieval functions
-        retrieval_funcs = get_retrieval_functions()
-        
-        # Load required data using existing functions
-        embeddings_path = PROJECT_ROOT / "data" / "processed" / "embeddings.npy"
-        metadata_path = PROJECT_ROOT / "data" / "processed" / "embedding_metadata.json"
-        sections_path = PROJECT_ROOT / "data" / "processed" / "sections.jsonl"
-        
-        embeddings = retrieval_funcs['load_embeddings'](embeddings_path)
-        metadata = retrieval_funcs['load_json'](metadata_path)
-        sections = retrieval_funcs['load_sections'](sections_path)
-        model = retrieval_funcs['load_embedding_model']()
+        # Use cached data to avoid repeated model loading
+        cached_data = get_cached_retrieval_data()
         
         # Perform search using existing function
-        results = retrieval_funcs['semantic_search'](
+        results = cached_data['functions']['semantic_search'](
             query=request.query,
-            model=model,
-            document_embeddings=embeddings,
-            metadata=metadata,
-            sections=sections,
+            model=cached_data['model'],
+            document_embeddings=cached_data['embeddings'],
+            metadata=cached_data['metadata'],
+            sections=cached_data['sections'],
             top_k=request.top_k
         )
         

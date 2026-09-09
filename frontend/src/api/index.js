@@ -7,6 +7,7 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
+  timeout: 120000, // 2 minute timeout for model loading
 });
 
 export const apiService = {
@@ -25,9 +26,9 @@ export const apiService = {
   // Training history
   getTrainingHistory: () => api.get('/api/training/history'),
   
-  // Semantic search
+  // Semantic search with extended timeout
   searchRetrieval: (query, topK = 5) => 
-    api.post('/api/retrieval/search', { query, top_k: topK }),
+    api.post('/api/retrieval/search', { query, top_k: topK }, { timeout: 180000 }), // 3 minute timeout
 };
 
 export default apiService;
