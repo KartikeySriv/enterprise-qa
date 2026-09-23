@@ -1,3 +1,11 @@
+backend start:
+uvicorn api.server:app --reload
+
+frontend start:
+cd frontend
+npm run dev
+
+
 (.venv) PS D:\CODING\CODE\enterprise--qa> python qa/train.py                                                
 ======================================================================
 PHASE 5B-4 - TINYROBERTA FINE-TUNING
